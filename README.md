@@ -1,5 +1,4 @@
-[![](https://img.shields.io/badge/language-Python35-green.svg)]()         [![](https://img.shields.io/badge/Branch-master-green.svg?longCache=true)]()           [![](https://img.shields.io/github/followers/DropsDevopsOrg.svg?label=Follow)]()        [![](https://img.shields.io/github/forks/DropsDevopsOrg/ECommerceCrawlers.svg?label=Fork&style=social)]()       [![](https://img.shields.io/github/stars/DropsDevopsOrg/ECommerceCrawlers.svg?style=social)]()             [![](https://img.shields.io/github/watchers/DropsDevopsOrg/ECommerceCrawlers.svg?label=Watch&style=social)]()
-
+[![](https://img.shields.io/badge/language-Python35-green.svg)]()         [![](https://img.shields.io/badge/Branch-master-green.svg?longCache=true)]()           [![](https://img.shields.io/github/followers/DropsDevopsOrg.svg?label=Follow)]()      ![GitHub contributors](https://img.shields.io/github/contributors/DropsDevopsOrg/ECommerceCrawlers.svg)    [![](https://img.shields.io/github/forks/DropsDevopsOrg/ECommerceCrawlers.svg?label=Fork&style=social)]()       [![](https://img.shields.io/github/stars/DropsDevopsOrg/ECommerceCrawlers.svg?style=social)]()             [![](https://img.shields.io/github/watchers/DropsDevopsOrg/ECommerceCrawlers.svg?label=Watch&style=social)]() 
 
 # ECommerceCrawlers
 
@@ -7,7 +6,7 @@
 
 通过每个项目的readme，了解爬取过程分析。
 
-对于精通爬虫的pythoner，这将是一个很好的例子减少重复收集轮子的过程。项目经常更新维护，确保即下即用，减少爬取的时间。
+对于精通爬虫的pyer，这将是一个很好的例子减少重复收集轮子的过程。项目经常更新维护，确保即下即用，减少爬取的时间。
 
 对于小白通过✍️实战项目，了解爬虫的从无到有。爬虫过程的分析可以移步[项目wiki]()。爬虫可能是一件非常复杂、技术门槛很高的事情，但掌握正确的方法，在短时间内做到能够爬取主流网站的数据，其实非常容易实现，但建议从一开始就要有一个具体的目标。
  
@@ -29,13 +28,16 @@
   - [x] [0x03 阿里任务](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler#0x03alitask)
   - [x] [0x04 包图网视频](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler#0x04baotu)
   - [ ] [0x05 全景网图片](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler#0x05quanjing) 
-  - [x] [0x06 douban_music](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler#0x06douban_music)
+  - [x] [0x06 豆瓣音乐](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler#0x06douban_music)
   - [x] [0x07 某省药监局](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler#0x07gdfda_pharmacy)
   - [x] [0x08 fofa](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler#0x08fofa)
+  - [ ] [0x09 汽车之家](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler#0x09autohome)
 
 ## Contribution👏
-…………
 
+|||
+|:-:|:-:|
+|<a  href="https://github.com/Joynice"><img class="avatar" src="https://avatars0.githubusercontent.com/u/22851022?s=96&amp;v=4" width="48" height="48" alt="@Joynice"></a>|<a href="https://github.com/liangweiyang"><img class="avatar" src="https://avatars0.githubusercontent.com/u/37971213?s=96&amp;v=4" width="48" height="48" alt="@liangweiyang"></a>|
 > wait for you
 
 ## What You Learn ?
@@ -47,6 +49,8 @@
   - [x] Fiddler
   - [x] Firefox
   - [ ] appnium
+  - [x] anyproxy
+  - [x] mitmproxy
 - 数据采集
   - [x] [urllib]()
   - [x] [requests](https://2.python-requests.org//zh_CN/latest/user/quickstart.html)
@@ -129,8 +133,8 @@
 小规模数据存储（文本）
 
  - txt文本
-- csv
-- excel
+ - csv
+ - excel
 
 大规模数据存储（数据库）
 
@@ -145,6 +149,10 @@
 反反爬
 
 ### 🙋0x06 效率爬虫
+
+多线程
+
+多进程
 
 异步协程
 

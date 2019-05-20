@@ -16,7 +16,8 @@
 - [x] [0x06 douban_music](#0x06douban_music)
 - [x] [0x07 药监局](#0x07gdfda_pharmacy)
 - [x] [0x08 fofa](#0x08Fofa)
-
+- [x] [0x09 autohome](#0x09autohome)
+- 
 ## 有趣的爬虫介绍
 
 ### [0x01baidutieba](0x01baidutieba)
@@ -86,3 +87,12 @@
 - 使用无头浏览器爬虫
 - 数据库使用
 - pyquery
+
+
+### [0x09autohome](0x09autohome)
+
+**关于汽车之家信息采集[分析与描述](0x09autohome/readme.md)**
+
+**练习知识点**
+
+- 无
