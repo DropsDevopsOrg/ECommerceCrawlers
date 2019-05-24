@@ -50,6 +50,7 @@
   - [x] Firefox
   - [ ] appnium
   - [x] anyproxy
+  - [x] mitmproxy
 - 数据采集
   - [x] [urllib]()
   - [x] [requests](https://2.python-requests.org//zh_CN/latest/user/quickstart.html)
@@ -132,8 +133,8 @@
 小规模数据存储（文本）
 
  - txt文本
-- csv
-- excel
+ - csv
+ - excel
 
 大规模数据存储（数据库）
 
