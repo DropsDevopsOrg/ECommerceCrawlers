@@ -37,8 +37,7 @@
 
 |||
 |:-:|:-:|
-|![](https://avatars0.githubusercontent.com/u/37971213?s=40&v=4)|![](https://avatars0.githubusercontent.com/u/22851022?s=40&v=4)|
-
+|<a  href="/orgs/DropsDevopsOrg/people/Joynice"><img class="avatar" src="https://avatars0.githubusercontent.com/u/22851022?s=96&amp;v=4" width="48" height="48" alt="@Joynice"></a>|<a href="/orgs/DropsDevopsOrg/people/liangweiyang"><img class="avatar" src="https://avatars0.githubusercontent.com/u/37971213?s=96&amp;v=4" width="48" height="48" alt="@liangweiyang"></a>|
 > wait for you
 
 ## What You Learn ?
@@ -50,6 +49,7 @@
   - [x] Fiddler
   - [x] Firefox
   - [ ] appnium
+  - [x] anyproxy
 - 数据采集
   - [x] [urllib]()
   - [x] [requests](https://2.python-requests.org//zh_CN/latest/user/quickstart.html)
