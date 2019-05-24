@@ -37,7 +37,7 @@
 
 |||
 |:-:|:-:|
-|<a  href="/orgs/DropsDevopsOrg/people/Joynice"><img class="avatar" src="https://avatars0.githubusercontent.com/u/22851022?s=96&amp;v=4" width="48" height="48" alt="@Joynice"></a>|<a href="/orgs/DropsDevopsOrg/people/liangweiyang"><img class="avatar" src="https://avatars0.githubusercontent.com/u/37971213?s=96&amp;v=4" width="48" height="48" alt="@liangweiyang"></a>|
+|<a  href="https://github.com/Joynice"><img class="avatar" src="https://avatars0.githubusercontent.com/u/22851022?s=96&amp;v=4" width="48" height="48" alt="@Joynice"></a>|<a href="https://github.com/liangweiyang"><img class="avatar" src="https://avatars0.githubusercontent.com/u/37971213?s=96&amp;v=4" width="48" height="48" alt="@liangweiyang"></a>|
 > wait for you
 
 ## What You Learn ?
@@ -148,6 +148,10 @@
 反反爬
 
 ### 🙋0x06 效率爬虫
+
+多线程
+
+多进程
 
 异步协程
 
