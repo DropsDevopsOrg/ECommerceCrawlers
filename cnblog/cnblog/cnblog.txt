@@ -1,0 +1,400 @@
+node http 模块 常用知识点记录     https://www.cnblogs.com/EnSnail/p/10960256.html
+如何识别恶意请求，进行反爬虫操作？     https://www.cnblogs.com/wenbochang/p/10960066.html
+Kubernetes CNI网络插件     https://www.cnblogs.com/rexcheny/p/10960233.html
+[开源]Gin + GORM + Casbin+vue-element-admin 实现权限管理系统(golang)     https://www.cnblogs.com/hotion/p/10958700.html
+JavaScript正则表达式     https://www.cnblogs.com/tqlin/p/10960127.html
+TensorFlow——Graph的基本操作     https://www.cnblogs.com/baby-lily/p/10960054.html
+【朝花夕拾】Android自定义View篇之（二）Canvas常用技巧     https://www.cnblogs.com/andy-songwei/p/10960012.html
+简说设计模式——中介者模式     https://www.cnblogs.com/adamjwh/p/10959987.html
+分治思想--快速排序解决TopK问题     https://www.cnblogs.com/speanut/p/10959912.html
+使用OAuth保护REST API并使用简单的Angular客户端     https://www.cnblogs.com/xjknight/p/10959614.html
+SpringBoot 整合 RabbitMQ（包含三种消息确认机制以及消费端限流）     https://www.cnblogs.com/haixiang/p/10959551.html
+RestHighLevelClient查询es     https://www.cnblogs.com/wangrudong003/p/10959525.html
+<More Effective C#: 改善C#代码的50个有效方法>中文版翻译答疑     https://www.cnblogs.com/adalovelacer/p/Q-and-A-about-More-Effective-C-sharp-chinese.html
+深度学习的一些思考     https://www.cnblogs.com/sdu20112013/p/10958960.html
+Android8.1 SystemUI源码分析之 电池时钟刷新     https://www.cnblogs.com/cczheng-666/p/10958920.html
+【nodejs原理&源码赏析（4）】深度剖析cluster模块源码与node.js多进程（上）     https://www.cnblogs.com/dashnowords/p/10958457.html
+JVM(三)：深入分析Java字节码-上     https://www.cnblogs.com/JRookie/p/10958454.html
+我被C++开发欺辱的岁月     https://www.cnblogs.com/kiba/p/10950526.html
+Spring IOC源码分析之-刷新前的准备工作     https://www.cnblogs.com/cxuanBlog/p/10958307.html
+HashMap,你知道多少？     https://www.cnblogs.com/yuanfy008/p/10958041.html
+Entitas实现简析     https://www.cnblogs.com/blueberryzzz/p/10957921.html
+算法图解之快速排序     https://www.cnblogs.com/youcong/p/10957896.html
+Java微信公众平台开发(十二)--微信JSSDK的使用     https://www.cnblogs.com/gede/p/10957701.html
+如何使用 RxJS 更优雅地进行定时请求     https://www.cnblogs.com/nzbin/p/10956065.html
+浅谈贪心与动归     https://www.cnblogs.com/lidasu/p/10957495.html
+刚做测试工作一年的时候，我是怎样的？     https://www.cnblogs.com/longronglang/p/10957399.html
+新浪微博相册图片外链限制，图床不显示解决方法总结！     https://www.cnblogs.com/wangdadaer/p/sinaimg404.html
+不知道Java类文件结构的同学，看这篇文章就够了     https://www.cnblogs.com/rainple/p/10846917.html
+Flask入门很轻松 （一）     https://www.cnblogs.com/Sunzz/p/10956837.html
+一起来学Spring Cloud | 第七章：分布式配置中心(Spring Cloud Config)     https://www.cnblogs.com/haly/p/10945138.html
+读《浪潮之巅》有感     https://www.cnblogs.com/xiyuanMore/p/10956762.html
+第一次把mysql装进docker里碰到的各种问题     https://www.cnblogs.com/hebaibai/p/10956607.html
+Apollo 分布式配置中心（补充）     https://www.cnblogs.com/cjsblog/p/10956364.html
+马蜂窝大交通业务监控报警系统架构设计与实现     https://www.cnblogs.com/mfwtech/p/10955872.html
+Cocos Creator 中的动作系统那些事儿     https://www.cnblogs.com/zhen-prz/p/10955573.html
+Redis中的LFU算法     https://www.cnblogs.com/linxiyue/p/10955533.html
+使用ctypes调用系统C API函数需要注意的问题，函数参数中有指针或结构体的情况下最好不要修改argtypes     https://www.cnblogs.com/Yinkaisheng/p/10955468.html
+关于vue中node_modules中第三方模块的修改使用     https://www.cnblogs.com/yogic/p/10955428.html
+Spring Cloud Zuul API服务网关之请求路由     https://www.cnblogs.com/cxuanBlog/p/10955333.html
+多媒体开发（10）：从视频中提取图片     https://www.cnblogs.com/freeself/p/10955304.html
+Spring Cloud Zuul API服务网关之请求路由     https://www.cnblogs.com/cxuanBlog/p/10955333.html
+多媒体开发（10）：从视频中提取图片     https://www.cnblogs.com/freeself/p/10955304.html
+【WEB基础】HTML & CSS 基础入门（10）布局与定位     https://www.cnblogs.com/nnzhang/p/10955097.html
+JavaScript 系列--JavaScript一些奇淫技巧的实现方法（二）数字格式化 1234567890转1,234,567,890；argruments 对象(类数组)转换成数组     https://www.cnblogs.com/chengxs/p/10955182.html
+机器学习框架ML.NET学习笔记【7】人物图片颜值判断     https://www.cnblogs.com/seabluescn/p/10947650.html
+mongoDB看这篇就够了     https://www.cnblogs.com/dreamcc/p/10955069.html
+【朝花夕拾】Android自定义View篇之（一）View绘制流程     https://www.cnblogs.com/andy-songwei/p/10955062.html
+如何在ASP.NET Core自定义中间件中读取Request.Body和Response.Body的内容？     https://www.cnblogs.com/lwqlun/p/10954936.html
+Java匹马行天下之JavaWeb核心技术——JSP(续一)     https://www.cnblogs.com/zyx110/p/10954601.html
+ES6 Proxy 性能之我见     https://www.cnblogs.com/zmj97/p/10954968.html
+开放交换机组网技术和前沿进展     https://www.cnblogs.com/sdnlab1509/p/10954864.html
+微服务看门神-Zuul     https://www.cnblogs.com/sanshengshui/p/10954796.html
+做支付遇到的HttpClient大坑     https://www.cnblogs.com/donlianli/p/10954716.html
+xBIM 01  简介     https://www.cnblogs.com/SavionZhang/p/10954713.html
+算法之复杂度判断     https://www.cnblogs.com/tandaxia/p/10919609.html
+吴军博士眼中的五级软件工程师     https://www.cnblogs.com/jsjwk/p/10954650.html
+原创｜强大！Nginx 配置在线一键生成“神器”     https://www.cnblogs.com/youkanyouxiao/p/10954357.html
+Spring Boot 2 快速教程：WebFlux 集成 Thymeleaf（五）     https://www.cnblogs.com/Alandre/p/10954254.html
+你凭什么做好一个程序员？     https://www.cnblogs.com/yaoshen/p/10954133.html
+用Q-learning算法实现自动走迷宫机器人     https://www.cnblogs.com/yixinjishu/p/10954095.html
+阿里一年，聊聊我成长了什么     https://www.cnblogs.com/xrq730/p/10933362.html
+koa2 从入门到进阶之路 （六）     https://www.cnblogs.com/weijiutao/p/10697181.html
+SpringBoot第十二篇：整合jsp     https://www.cnblogs.com/yanfei1819/p/10953600.html
+构建可读性更高的 ASP.NET Core 路由     https://www.cnblogs.com/danvic712/p/10952541.html
+RabbitMQ使用教程（五）如何保证队列里的消息99.99%被消费？     https://www.cnblogs.com/zwwhnly/p/10953388.html
+分布式系统关注点(21)——构建「易测试」系统的“六脉神剑”     https://www.cnblogs.com/Zachary-Fan/p/easytest.html
+Android8.1 SystemUI源码分析之 Notification流程     https://www.cnblogs.com/cczheng-666/p/10953193.html
+机器学习框架ML.NET学习笔记【6】TensorFlow图片分类     https://www.cnblogs.com/seabluescn/p/10944579.html
+AppBoxFuture(八): 另类的ORM实现     https://www.cnblogs.com/BaiCai/p/10953149.html
+【好书推荐】《剑指Offer》之硬技能（编程题1~6）     https://www.cnblogs.com/yulinfeng/p/10953039.html
+有助于改善性能的Java代码技巧     https://www.cnblogs.com/jimoer/p/10787672.html
+Python微信操控（itchat）     https://www.cnblogs.com/dongxiaodong/p/10490563.html
+jenkins手把手教你从入门到放弃03-安装Jenkins时web界面出现该jenkins实例似乎已离线     https://www.cnblogs.com/du-hong/p/10655635.html
+ubuntu16.04安装CUDA 8.0（很详尽，包括一些坑的解决方法）     https://www.cnblogs.com/left4back/p/10952845.html
+WebAssembly 上手     https://www.cnblogs.com/Wayou/p/webassembly_quick_start.html
+无聊吗？写个【飞机大战】来玩吧（下篇）     https://www.cnblogs.com/migufe/p/10952822.html
+可落地的DDD(3)-如何利用DDD进行微服务的划分     https://www.cnblogs.com/stoneFang/p/10952658.html
+python强大的绘图模块matplotlib示例讲解     https://www.cnblogs.com/bainianminguo/p/10952586.html
+LinkedList 基本示例及源码解析     https://www.cnblogs.com/cxuanBlog/p/10952578.html
+【原创】基于.NET的轻量级高性能 ORM - XFramework     https://www.cnblogs.com/yiting/p/10952302.html
+ABP开发框架前后端开发系列---（5）Web API调用类在Winform项目中的使用     https://www.cnblogs.com/wuhuacong/p/10949741.html
+我的程序人生 （三）在百人团队参与游戏研发体验     https://www.cnblogs.com/u3ddjw/p/9879523.html
+USB之基本协议和数据波形1     https://www.cnblogs.com/vedic/p/10951851.html
+B树概述与简单应用示例(C#)     https://www.cnblogs.com/lanxiaoke/p/10939887.html
+USBIP源码分析     https://www.cnblogs.com/likaiming/p/10949172.html
+Java微信公众平台开发(十一)--微信JSSDK中Config配置     https://www.cnblogs.com/gede/p/10949458.html
+shell高级-----正则表达式     https://www.cnblogs.com/jinyuanliu/p/10937795.html
+仿射变换及其变换矩阵的理解     https://www.cnblogs.com/shine-lee/p/10950963.html
+神秘常量0x077CB531，德布莱英序列的恩赐     https://www.cnblogs.com/xiaohutu/p/10950011.html
+简要介绍Active Learning(主动学习)思想框架，以及从IF（isolation forest）衍生出来的算法：FBIF（Feedback-Guided Anomaly Discovery）     https://www.cnblogs.com/LittleHann/p/10925269.html
+（7）ASP.NET Core 中的错误处理     https://www.cnblogs.com/wzk153/p/10950702.html
+php 学习笔记之关于时区的那点事     https://www.cnblogs.com/snowdreams1006/p/10949856.html
+降维打击！为什么我认为数据结构与算法对前端开发很重要     https://www.cnblogs.com/fivestudy/p/10949774.html
+自定义Spring Security的身份验证失败处理     https://www.cnblogs.com/xjknight/p/10949636.html
+ABP开发框架前后端开发系列---（4）Web API调用类的封装和使用     https://www.cnblogs.com/wuhuacong/p/10932139.html
+【WEB基础】HTML & CSS 基础入门（9）CSS盒子     https://www.cnblogs.com/nnzhang/p/10949418.html
+ArrayList相关方法介绍及源码分析     https://www.cnblogs.com/cxuanBlog/p/10949552.html
+机器学习框架ML.NET学习笔记【4】多元分类之手写数字识别     https://www.cnblogs.com/seabluescn/p/10941580.html
+Django学习笔记（13）——Django的用户认证组件，视图层和QuerySet API     https://www.cnblogs.com/wj-1314/p/10065929.html
+敏捷大会 II 极致进化-敏捷进化型企业的未来畅想     https://www.cnblogs.com/worktile/p/10949360.html
+Spark-2.4.0源码：sparkContext     https://www.cnblogs.com/cnblogs-syui/p/10948471.html
+安全性测试入门 (五)：Insecure CAPTCHA 验证码绕过     https://www.cnblogs.com/yingyingja/p/10949302.html
+Windows进程通信之一看就懂的匿名管道通信     https://www.cnblogs.com/iBinary/p/10949198.html
+JavaScript 系列--JavaScript一些奇淫技巧的实现方法（一）简短的sleep函数，获取时间戳     https://www.cnblogs.com/chengxs/p/10949075.html
+[NewLife.XCode]实体工厂（拦截处理实体操作）     https://www.cnblogs.com/nnhy/p/xcode_factory.html
+Java匹马行天下之JavaWeb核心技术——JSP     https://www.cnblogs.com/zyx110/p/10926587.html
+实现网站中英文切换的三种方法     https://www.cnblogs.com/tu-0718/p/10942201.html
+斗鱼 API 网关演进之路     https://www.cnblogs.com/upyun/p/10948756.html
+让最新的 Android Q Beta 3 强制重启的 Project Mainline，到底是什么？     https://www.cnblogs.com/plokmju/p/android_project_mainline.html
+kolla-ansible-----rally模块     https://www.cnblogs.com/jinyuanliu/p/10948292.html
+iOS开发 - 3D Touch 应用系列一 - Quick Actions 创建桌面 Icon 快捷方式     https://www.cnblogs.com/GarveyCalvin/p/3d-touch-series-quick-action.html
+Docker最全教程之使用PHP搭建个人博客站点（二十二）     https://www.cnblogs.com/codelove/p/10948053.html
+RabbitMQ使用教程（四）如何通过持久化保证消息99.99%不丢失？     https://www.cnblogs.com/zwwhnly/p/10948024.html
+koa2 从入门到进阶之路 （五）     https://www.cnblogs.com/weijiutao/p/10696161.html
+JDK11  |  第七篇 : ZGC 垃圾收集器     https://www.cnblogs.com/huanchupkblog/p/10947919.html
+一文读懂MySQL复制机制     https://www.cnblogs.com/enochzzg/p/10947767.html
+Zipkin — 微服务链路跟踪.     https://www.cnblogs.com/jmcui/p/10940372.html
+[切图仔救赎]炒冷饭--在线手撸vue2响应式原理     https://www.cnblogs.com/chedabang/p/10947680.html
+CQRS之旅——旅程2(分解领域)     https://www.cnblogs.com/angrymoto/p/cqrs-journey-day2.html
+【开源我写的富文本】打造全网最劲富文本技术选型之经典OOP仍是魅力硬核。     https://www.cnblogs.com/kevinJhuang/p/10946842.html
+CQRS之旅——旅程2(分解领域)     https://www.cnblogs.com/angrymoto/p/cqrs-journey-day2.html
+【开源我写的富文本】打造全网最劲富文本技术选型之经典OOP仍是魅力硬核。     https://www.cnblogs.com/kevinJhuang/p/10946842.html
+你一直在用的 Spring Boot Starters 究竟是怎么回事     https://www.cnblogs.com/fengzheng/p/10947585.html
+是时候搞清楚 Spring Boot 的配置文件 application.properties 了！     https://www.cnblogs.com/lenve/p/10947517.html
+机器学习框架ML.NET学习笔记【3】文本特征分析     https://www.cnblogs.com/seabluescn/p/10914829.html
+还不知道如何使用 IDEA ？教你三招快速掌握 IDEA     https://www.cnblogs.com/goodAndyxublog/p/10947366.html
+TypeScript 装饰器     https://www.cnblogs.com/Wayou/p/typescript_decorator.html
+WebSocket协议入门介绍     https://www.cnblogs.com/nuccch/p/10947256.html
+贪婪算法回顾     https://www.cnblogs.com/hujingnb/p/10947152.html
+RN 从上手到“放弃”     https://www.cnblogs.com/adouwt/p/10947047.html
+Spring AOP——Spring 中面向切面编程     https://www.cnblogs.com/joy99/p/10941543.html
+【tf.keras】tf.keras加载AlexNet预训练模型     https://www.cnblogs.com/wuliytTaotao/p/10942877.html
+【好书推荐】《剑指Offer》之软技能     https://www.cnblogs.com/yulinfeng/p/10946815.html
+从Flux到Redux详解单项数据流     https://www.cnblogs.com/pomelott/p/10946783.html
+语音信号预处理——数字滤波器     https://www.cnblogs.com/LXP-Never/p/10886622.html
+SpringBoot源码篇（一）：深度分析SpringBoot如何省去web.xml     https://www.cnblogs.com/hello-shf/p/10926271.html
+GraphQL实战经验和性能问题的解决方案     https://www.cnblogs.com/chaosyang/p/graphql-practice-and-resolve-performance-issue.html
+机器学习框架ML.NET学习笔记【2】入门之二元分类     https://www.cnblogs.com/seabluescn/p/10907109.html
+对象拷贝 - 优雅的解决方案 Mapstruct     https://www.cnblogs.com/rolandlee/p/10946237.html
+网络爬虫之记一次js逆向解密经历     https://www.cnblogs.com/chenhuabin/p/10946085.html
+Spring Security方法级别授权使用介绍     https://www.cnblogs.com/xjknight/p/10945825.html
+JVM垃圾收集器总结     https://www.cnblogs.com/Cubemen/p/10942987.html
+SpringBoot项目实现文件上传和邮件发送     https://www.cnblogs.com/xuwujing/p/10945698.html
+物体检测丨浅析One stage detector「YOLOv1、v2、v3、SSD」     https://www.cnblogs.com/vincent1997/p/10945551.html
+Ocelot（四）- 认证与授权     https://www.cnblogs.com/markjiang7m2/p/10932805.html
+Java微信公众平台开发(十)--微信用户信息的获取     https://www.cnblogs.com/gede/p/10945486.html
+Vue.extend动态注册子组件     https://www.cnblogs.com/tnnyang/p/10945399.html
+前后端API交互数据加密——AES与RSA混合加密完整实例     https://www.cnblogs.com/huanzi-qch/p/10913636.html
+小试OKR一季度之后有感分享，你要不要试试ORK？     https://www.cnblogs.com/qiaobing/p/dawanqiao.html
+Hadoop源生实用工具之distcp     https://www.cnblogs.com/jagel-95/p/10945317.html
+（6）ASP.NET Core 中使用IHttpClientFactory发出HTTP请求     https://www.cnblogs.com/wzk153/p/10945313.html
+c++11 多线程入门教程（一）     https://www.cnblogs.com/DOMLX/p/10945309.html
+Redis中的LRU淘汰策略分析     https://www.cnblogs.com/linxiyue/p/10945216.html
+ASP.NET Core模块化前后端分离快速开发框架介绍之4、模块化实现思路     https://www.cnblogs.com/oldli/p/10945137.html
+借鉴redux，实现一个react状态管理方案     https://www.cnblogs.com/xujiazheng/p/10945110.html
+abp(net core)+easyui+efcore仓储系统——解决方案介绍(二)     https://www.cnblogs.com/chillsrc/p/10944870.html
+volatile底层原理详解     https://www.cnblogs.com/uniqueDong/p/10944244.html
+记一次序列化的JSON解析问题     https://www.cnblogs.com/cxuanBlog/p/10944164.html
+Angular8稳定版发布     https://www.cnblogs.com/xzsty/p/10942900.html
+张高兴的 .NET Core IoT 入门指南：（四）使用 SPI 进行通信     https://www.cnblogs.com/zhanggaoxing/p/10943822.html
+大型网站架构演化发展历程     https://www.cnblogs.com/cxuanBlog/p/10943743.html
+机器学习框架ML.NET学习笔记【1】基本概念与系列文章目录     https://www.cnblogs.com/seabluescn/p/10904391.html
+RabbitMQ使用教程（三）如何保证消息99.99%被发送成功？     https://www.cnblogs.com/zwwhnly/p/10943340.html
+关于PCA降维中遇到的python问题小结     https://www.cnblogs.com/hezhuoheng/p/10942258.html
+python接口自动化（四十一）- 发xml格式参数的post请求（超详解）     https://www.cnblogs.com/du-hong/p/10923930.html
+了解【Docker】从这里开始     https://www.cnblogs.com/wmyskxz/p/10943169.html
+WebGL之物体选择     https://www.cnblogs.com/edwardloveyou/p/10943102.html
+[知乎作答]·关于在Keras中多标签分类器训练准确率问题     https://www.cnblogs.com/xiaosongshine/p/10942969.html
+.NET Core微服务 权限系统+工作流（二）工作流系统     https://www.cnblogs.com/wms01/p/10940565.html
+一次Zookeeper 扩展之殇     https://www.cnblogs.com/yixinjishu/p/10942808.html
+这个五月，我拿到了腾讯暑期offer     https://www.cnblogs.com/yueshutong/p/10942787.html
+ThreadPoolExecutor线程池的keepAliveTime     https://www.cnblogs.com/zxporz/p/10940251.html
+Spring Cloud微服务初探     https://www.cnblogs.com/dimple91/p/10942559.html
+Angular 8 发布     https://www.cnblogs.com/haogj/p/10942551.html
+DevOps的工程化     https://www.cnblogs.com/worktile/p/10942213.html
+koa2 从入门到进阶之路 （四）     https://www.cnblogs.com/weijiutao/p/10691481.html
+开源分布式Job系统,调度与业务分离-如何创建一个计划HttpJob任务     https://www.cnblogs.com/yudongdong/p/10942028.html
+企业要为现金流建模     https://www.cnblogs.com/BigTall/p/10942006.html
+3年，阅读量100万+, Github Star 15000+     https://www.cnblogs.com/ityouknow/p/10941889.html
+解决问题通用方法论     https://www.cnblogs.com/nesger/p/10941878.html
+稳定性三十六计-历史记录     https://www.cnblogs.com/xiexj/p/10941852.html
+.Net core使用XRPC创建远程接口的Actor对象     https://www.cnblogs.com/smark/p/10941819.html
+为什么有人会觉得IT门槛低，工资高？     https://www.cnblogs.com/moonhmily/p/10941774.html
+[WPF自定义控件库]简单的表单布局控件     https://www.cnblogs.com/dino623/p/WPF-Form-Layout.html
+Ceres Solver: 高效的非线性优化库（二）实战篇     https://www.cnblogs.com/zjulion/p/10941740.html
+CQRS之旅——旅程1(我们的领域：Contoso会议管理系统)     https://www.cnblogs.com/angrymoto/p/cqrs-journey-day1.html
+设计模式看了又忘，忘了又看？     https://www.cnblogs.com/liebrother/p/10941660.html
+Spring Cloud Ribbon负载均衡     https://www.cnblogs.com/cxuanBlog/p/10941576.html
+深入V8引擎-Time核心方法之win篇(2)     https://www.cnblogs.com/QH-Jimmy/p/10940840.html
+软件架构之道的一次感悟     https://www.cnblogs.com/ztfjs/p/10941458.html
+Aura Component Skills & Tools     https://www.cnblogs.com/zero-zyq/p/10935506.html
+net core 的Generic Host 之Generic Host Builder     https://www.cnblogs.com/blue-tian/p/10941235.html
+浅谈堆-Heap（一）     https://www.cnblogs.com/blentle/p/10941119.html
+算法导论课后习题解答 第一部分 练习1.1-1->1.1-5     https://www.cnblogs.com/godoforange/p/10940674.html
+朱晔的互联网架构实践心得S2E7:漫谈平台架构的工作（基础架构、基础服务、基础平台、基础中间件等等）     https://www.cnblogs.com/lovecindywang/p/10941007.html
+nginx配置SSL证书实现https服务     https://www.cnblogs.com/tugenhua0707/p/10940977.html
+Kaggle八门神器（一）：竞赛神器之XGBoost介绍     https://www.cnblogs.com/chdee/p/10940380.html
+单周期cpu设计代码解读     https://www.cnblogs.com/hesse-summer/p/10940775.html
+实战算法——多叉树全路径遍历     https://www.cnblogs.com/hwtblog/p/10940692.html
+ML.NET 示例：目录     https://www.cnblogs.com/feiyun0112/p/10940661.html
+Python中文件读写     https://www.cnblogs.com/despatch/p/10960398.html
+如何识别恶意请求，进行反爬虫操作？     https://www.cnblogs.com/wenbochang/p/10960066.html
+Kubernetes CNI网络插件     https://www.cnblogs.com/rexcheny/p/10960233.html
+[开源]Gin + GORM + Casbin+vue-element-admin 实现权限管理系统(golang)     https://www.cnblogs.com/hotion/p/10958700.html
+JavaScript正则表达式     https://www.cnblogs.com/tqlin/p/10960127.html
+TensorFlow——Graph的基本操作     https://www.cnblogs.com/baby-lily/p/10960054.html
+【朝花夕拾】Android自定义View篇之（二）Canvas常用技巧     https://www.cnblogs.com/andy-songwei/p/10960012.html
+简说设计模式——中介者模式     https://www.cnblogs.com/adamjwh/p/10959987.html
+分治思想--快速排序解决TopK问题     https://www.cnblogs.com/speanut/p/10959912.html
+使用OAuth保护REST API并使用简单的Angular客户端     https://www.cnblogs.com/xjknight/p/10959614.html
+SpringBoot 整合 RabbitMQ（包含三种消息确认机制以及消费端限流）     https://www.cnblogs.com/haixiang/p/10959551.html
+RestHighLevelClient查询es     https://www.cnblogs.com/wangrudong003/p/10959525.html
+<More Effective C#: 改善C#代码的50个有效方法>中文版翻译答疑     https://www.cnblogs.com/adalovelacer/p/Q-and-A-about-More-Effective-C-sharp-chinese.html
+深度学习的一些思考     https://www.cnblogs.com/sdu20112013/p/10958960.html
+Android8.1 SystemUI源码分析之 电池时钟刷新     https://www.cnblogs.com/cczheng-666/p/10958920.html
+【nodejs原理&源码赏析（4）】深度剖析cluster模块源码与node.js多进程（上）     https://www.cnblogs.com/dashnowords/p/10958457.html
+JVM(三)：深入分析Java字节码-上     https://www.cnblogs.com/JRookie/p/10958454.html
+我被C++开发欺辱的岁月     https://www.cnblogs.com/kiba/p/10950526.html
+Spring IOC源码分析之-刷新前的准备工作     https://www.cnblogs.com/cxuanBlog/p/10958307.html
+HashMap,你知道多少？     https://www.cnblogs.com/yuanfy008/p/10958041.html
+Java泛型(T)与通配符？     https://www.cnblogs.com/jinliang374003909/p/10949283.html
+Entitas实现简析     https://www.cnblogs.com/blueberryzzz/p/10957921.html
+算法图解之快速排序     https://www.cnblogs.com/youcong/p/10957896.html
+Java微信公众平台开发(十二)--微信JSSDK的使用     https://www.cnblogs.com/gede/p/10957701.html
+如何使用 RxJS 更优雅地进行定时请求     https://www.cnblogs.com/nzbin/p/10956065.html
+浅谈贪心与动归     https://www.cnblogs.com/lidasu/p/10957495.html
+刚做测试工作一年的时候，我是怎样的？     https://www.cnblogs.com/longronglang/p/10957399.html
+新浪微博相册图片外链限制，图床不显示解决方法总结！     https://www.cnblogs.com/wangdadaer/p/sinaimg404.html
+不知道Java类文件结构的同学，看这篇文章就够了     https://www.cnblogs.com/rainple/p/10846917.html
+Flask入门很轻松 （一）     https://www.cnblogs.com/Sunzz/p/10956837.html
+一起来学Spring Cloud | 第七章：分布式配置中心(Spring Cloud Config)     https://www.cnblogs.com/haly/p/10945138.html
+读《浪潮之巅》有感     https://www.cnblogs.com/xiyuanMore/p/10956762.html
+第一次把mysql装进docker里碰到的各种问题     https://www.cnblogs.com/hebaibai/p/10956607.html
+Apollo 分布式配置中心（补充）     https://www.cnblogs.com/cjsblog/p/10956364.html
+马蜂窝大交通业务监控报警系统架构设计与实现     https://www.cnblogs.com/mfwtech/p/10955872.html
+Cocos Creator 中的动作系统那些事儿     https://www.cnblogs.com/zhen-prz/p/10955573.html
+Redis中的LFU算法     https://www.cnblogs.com/linxiyue/p/10955533.html
+使用ctypes调用系统C API函数需要注意的问题，函数参数中有指针或结构体的情况下最好不要修改argtypes     https://www.cnblogs.com/Yinkaisheng/p/10955468.html
+关于vue中node_modules中第三方模块的修改使用     https://www.cnblogs.com/yogic/p/10955428.html
+Spring Cloud Zuul API服务网关之请求路由     https://www.cnblogs.com/cxuanBlog/p/10955333.html
+多媒体开发（10）：从视频中提取图片     https://www.cnblogs.com/freeself/p/10955304.html
+【WEB基础】HTML & CSS 基础入门（10）布局与定位     https://www.cnblogs.com/nnzhang/p/10955097.html
+JavaScript 系列--JavaScript一些奇淫技巧的实现方法（二）数字格式化 1234567890转1,234,567,890；argruments 对象(类数组)转换成数组     https://www.cnblogs.com/chengxs/p/10955182.html
+机器学习框架ML.NET学习笔记【7】人物图片颜值判断     https://www.cnblogs.com/seabluescn/p/10947650.html
+mongoDB看这篇就够了     https://www.cnblogs.com/dreamcc/p/10955069.html
+【朝花夕拾】Android自定义View篇之（一）View绘制流程     https://www.cnblogs.com/andy-songwei/p/10955062.html
+如何在ASP.NET Core自定义中间件中读取Request.Body和Response.Body的内容？     https://www.cnblogs.com/lwqlun/p/10954936.html
+Java匹马行天下之JavaWeb核心技术——JSP(续一)     https://www.cnblogs.com/zyx110/p/10954601.html
+ES6 Proxy 性能之我见     https://www.cnblogs.com/zmj97/p/10954968.html
+开放交换机组网技术和前沿进展     https://www.cnblogs.com/sdnlab1509/p/10954864.html
+微服务看门神-Zuul     https://www.cnblogs.com/sanshengshui/p/10954796.html
+做支付遇到的HttpClient大坑     https://www.cnblogs.com/donlianli/p/10954716.html
+xBIM 01  简介     https://www.cnblogs.com/SavionZhang/p/10954713.html
+算法之复杂度判断     https://www.cnblogs.com/tandaxia/p/10919609.html
+吴军博士眼中的五级软件工程师     https://www.cnblogs.com/jsjwk/p/10954650.html
+原创｜强大！Nginx 配置在线一键生成“神器”     https://www.cnblogs.com/youkanyouxiao/p/10954357.html
+Spring Boot 2 快速教程：WebFlux 集成 Thymeleaf（五）     https://www.cnblogs.com/Alandre/p/10954254.html
+你凭什么做好一个程序员？     https://www.cnblogs.com/yaoshen/p/10954133.html
+用Q-learning算法实现自动走迷宫机器人     https://www.cnblogs.com/yixinjishu/p/10954095.html
+CQRS之旅——旅程3(订单和注册限界上下文)     https://www.cnblogs.com/angrymoto/p/cqrs-journey-day3.html
+CQRS之旅——旅程3(订单和注册限界上下文)     https://www.cnblogs.com/angrymoto/p/cqrs-journey-day3.html
+React服务器端渲染框架next.js项目实战及部署上下文context问题解决办法     https://www.cnblogs.com/mszhangxuefei/p/10953962.html
+阿里一年，聊聊我成长了什么     https://www.cnblogs.com/xrq730/p/10933362.html
+koa2 从入门到进阶之路 （六）     https://www.cnblogs.com/weijiutao/p/10697181.html
+SpringBoot第十二篇：整合jsp     https://www.cnblogs.com/yanfei1819/p/10953600.html
+构建可读性更高的 ASP.NET Core 路由     https://www.cnblogs.com/danvic712/p/10952541.html
+RabbitMQ使用教程（五）如何保证队列里的消息99.99%被消费？     https://www.cnblogs.com/zwwhnly/p/10953388.html
+分布式系统关注点(21)——构建「易测试」系统的“六脉神剑”     https://www.cnblogs.com/Zachary-Fan/p/easytest.html
+Android8.1 SystemUI源码分析之 Notification流程     https://www.cnblogs.com/cczheng-666/p/10953193.html
+机器学习框架ML.NET学习笔记【6】TensorFlow图片分类     https://www.cnblogs.com/seabluescn/p/10944579.html
+AppBoxFuture(八): 另类的ORM实现     https://www.cnblogs.com/BaiCai/p/10953149.html
+【好书推荐】《剑指Offer》之硬技能（编程题1~6）     https://www.cnblogs.com/yulinfeng/p/10953039.html
+有助于改善性能的Java代码技巧     https://www.cnblogs.com/jimoer/p/10787672.html
+Python微信操控（itchat）     https://www.cnblogs.com/dongxiaodong/p/10490563.html
+jenkins手把手教你从入门到放弃03-安装Jenkins时web界面出现该jenkins实例似乎已离线     https://www.cnblogs.com/du-hong/p/10655635.html
+ubuntu16.04安装CUDA 8.0（很详尽，包括一些坑的解决方法）     https://www.cnblogs.com/left4back/p/10952845.html
+WebAssembly 上手     https://www.cnblogs.com/Wayou/p/webassembly_quick_start.html
+无聊吗？写个【飞机大战】来玩吧（下篇）     https://www.cnblogs.com/migufe/p/10952822.html
+可落地的DDD(3)-如何利用DDD进行微服务的划分     https://www.cnblogs.com/stoneFang/p/10952658.html
+python强大的绘图模块matplotlib示例讲解     https://www.cnblogs.com/bainianminguo/p/10952586.html
+【原创】基于.NET的轻量级高性能 ORM - XFramework     https://www.cnblogs.com/yiting/p/10952302.html
+ABP开发框架前后端开发系列---（5）Web API调用类在Winform项目中的使用     https://www.cnblogs.com/wuhuacong/p/10949741.html
+我的程序人生 （三）在百人团队参与游戏研发体验     https://www.cnblogs.com/u3ddjw/p/9879523.html
+USB之基本协议和数据波形1     https://www.cnblogs.com/vedic/p/10951851.html
+B树概述与简单应用示例(C#)     https://www.cnblogs.com/lanxiaoke/p/10939887.html
+USBIP源码分析     https://www.cnblogs.com/likaiming/p/10949172.html
+Java微信公众平台开发(十一)--微信JSSDK中Config配置     https://www.cnblogs.com/gede/p/10949458.html
+shell高级-----正则表达式     https://www.cnblogs.com/jinyuanliu/p/10937795.html
+仿射变换及其变换矩阵的理解     https://www.cnblogs.com/shine-lee/p/10950963.html
+神秘常量0x077CB531，德布莱英序列的恩赐     https://www.cnblogs.com/xiaohutu/p/10950011.html
+简要介绍Active Learning(主动学习)思想框架，以及从IF（isolation forest）衍生出来的算法：FBIF（Feedback-Guided Anomaly Discovery）     https://www.cnblogs.com/LittleHann/p/10925269.html
+（7）ASP.NET Core 中的错误处理     https://www.cnblogs.com/wzk153/p/10950702.html
+php 学习笔记之关于时区的那点事     https://www.cnblogs.com/snowdreams1006/p/10949856.html
+降维打击！为什么我认为数据结构与算法对前端开发很重要     https://www.cnblogs.com/fivestudy/p/10949774.html
+自定义Spring Security的身份验证失败处理     https://www.cnblogs.com/xjknight/p/10949636.html
+ABP开发框架前后端开发系列---（4）Web API调用类的封装和使用     https://www.cnblogs.com/wuhuacong/p/10932139.html
+【WEB基础】HTML & CSS 基础入门（9）CSS盒子     https://www.cnblogs.com/nnzhang/p/10949418.html
+ArrayList相关方法介绍及源码分析     https://www.cnblogs.com/cxuanBlog/p/10949552.html
+机器学习框架ML.NET学习笔记【4】多元分类之手写数字识别     https://www.cnblogs.com/seabluescn/p/10941580.html
+Django学习笔记（13）——Django的用户认证组件，视图层和QuerySet API     https://www.cnblogs.com/wj-1314/p/10065929.html
+敏捷大会 II 极致进化-敏捷进化型企业的未来畅想     https://www.cnblogs.com/worktile/p/10949360.html
+Spark-2.4.0源码：sparkContext     https://www.cnblogs.com/cnblogs-syui/p/10948471.html
+安全性测试入门 (五)：Insecure CAPTCHA 验证码绕过     https://www.cnblogs.com/yingyingja/p/10949302.html
+Windows进程通信之一看就懂的匿名管道通信     https://www.cnblogs.com/iBinary/p/10949198.html
+JavaScript 系列--JavaScript一些奇淫技巧的实现方法（一）简短的sleep函数，获取时间戳     https://www.cnblogs.com/chengxs/p/10949075.html
+[NewLife.XCode]实体工厂（拦截处理实体操作）     https://www.cnblogs.com/nnhy/p/xcode_factory.html
+Java匹马行天下之JavaWeb核心技术——JSP     https://www.cnblogs.com/zyx110/p/10926587.html
+实现网站中英文切换的三种方法     https://www.cnblogs.com/tu-0718/p/10942201.html
+斗鱼 API 网关演进之路     https://www.cnblogs.com/upyun/p/10948756.html
+让最新的 Android Q Beta 3 强制重启的 Project Mainline，到底是什么？     https://www.cnblogs.com/plokmju/p/android_project_mainline.html
+kolla-ansible-----rally模块     https://www.cnblogs.com/jinyuanliu/p/10948292.html
+iOS开发 - 3D Touch 应用系列一 - Quick Actions 创建桌面 Icon 快捷方式     https://www.cnblogs.com/GarveyCalvin/p/3d-touch-series-quick-action.html
+Docker最全教程之使用PHP搭建个人博客站点（二十二）     https://www.cnblogs.com/codelove/p/10948053.html
+RabbitMQ使用教程（四）如何通过持久化保证消息99.99%不丢失？     https://www.cnblogs.com/zwwhnly/p/10948024.html
+koa2 从入门到进阶之路 （五）     https://www.cnblogs.com/weijiutao/p/10696161.html
+JDK11  |  第七篇 : ZGC 垃圾收集器     https://www.cnblogs.com/huanchupkblog/p/10947919.html
+一文读懂MySQL复制机制     https://www.cnblogs.com/enochzzg/p/10947767.html
+Zipkin — 微服务链路跟踪.     https://www.cnblogs.com/jmcui/p/10940372.html
+[切图仔救赎]炒冷饭--在线手撸vue2响应式原理     https://www.cnblogs.com/chedabang/p/10947680.html
+CQRS之旅——旅程2(分解领域)     https://www.cnblogs.com/angrymoto/p/cqrs-journey-day2.html
+【开源我写的富文本】打造全网最劲富文本技术选型之经典OOP仍是魅力硬核。     https://www.cnblogs.com/kevinJhuang/p/10946842.html
+你一直在用的 Spring Boot Starters 究竟是怎么回事     https://www.cnblogs.com/fengzheng/p/10947585.html
+是时候搞清楚 Spring Boot 的配置文件 application.properties 了！     https://www.cnblogs.com/lenve/p/10947517.html
+机器学习框架ML.NET学习笔记【3】文本特征分析     https://www.cnblogs.com/seabluescn/p/10914829.html
+还不知道如何使用 IDEA ？教你三招快速掌握 IDEA     https://www.cnblogs.com/goodAndyxublog/p/10947366.html
+TypeScript 装饰器     https://www.cnblogs.com/Wayou/p/typescript_decorator.html
+WebSocket协议入门介绍     https://www.cnblogs.com/nuccch/p/10947256.html
+贪婪算法回顾     https://www.cnblogs.com/hujingnb/p/10947152.html
+RN 从上手到“放弃”     https://www.cnblogs.com/adouwt/p/10947047.html
+Spring AOP——Spring 中面向切面编程     https://www.cnblogs.com/joy99/p/10941543.html
+【tf.keras】tf.keras加载AlexNet预训练模型     https://www.cnblogs.com/wuliytTaotao/p/10942877.html
+【好书推荐】《剑指Offer》之软技能     https://www.cnblogs.com/yulinfeng/p/10946815.html
+从Flux到Redux详解单项数据流     https://www.cnblogs.com/pomelott/p/10946783.html
+语音信号预处理——数字滤波器     https://www.cnblogs.com/LXP-Never/p/10886622.html
+SpringBoot源码篇（一）：深度分析SpringBoot如何省去web.xml     https://www.cnblogs.com/hello-shf/p/10926271.html
+GraphQL实战经验和性能问题的解决方案     https://www.cnblogs.com/chaosyang/p/graphql-practice-and-resolve-performance-issue.html
+机器学习框架ML.NET学习笔记【2】入门之二元分类     https://www.cnblogs.com/seabluescn/p/10907109.html
+对象拷贝 - 优雅的解决方案 Mapstruct     https://www.cnblogs.com/rolandlee/p/10946237.html
+网络爬虫之记一次js逆向解密经历     https://www.cnblogs.com/chenhuabin/p/10946085.html
+nginx开启HSTS让浏览器强制跳转HTTPS访问     https://www.cnblogs.com/tugenhua0707/p/10945934.html
+Python踩坑之旅其一杀不死的Shell子进程     https://www.cnblogs.com/mythmgn/p/10945865.html
+Spring Security方法级别授权使用介绍     https://www.cnblogs.com/xjknight/p/10945825.html
+JVM垃圾收集器总结     https://www.cnblogs.com/Cubemen/p/10942987.html
+SpringBoot项目实现文件上传和邮件发送     https://www.cnblogs.com/xuwujing/p/10945698.html
+物体检测丨浅析One stage detector「YOLOv1、v2、v3、SSD」     https://www.cnblogs.com/vincent1997/p/10945551.html
+Ocelot（四）- 认证与授权     https://www.cnblogs.com/markjiang7m2/p/10932805.html
+Java微信公众平台开发(十)--微信用户信息的获取     https://www.cnblogs.com/gede/p/10945486.html
+Vue.extend动态注册子组件     https://www.cnblogs.com/tnnyang/p/10945399.html
+前后端API交互数据加密——AES与RSA混合加密完整实例     https://www.cnblogs.com/huanzi-qch/p/10913636.html
+小试OKR一季度之后有感分享，你要不要试试ORK？     https://www.cnblogs.com/qiaobing/p/dawanqiao.html
+Hadoop源生实用工具之distcp     https://www.cnblogs.com/jagel-95/p/10945317.html
+（6）ASP.NET Core 中使用IHttpClientFactory发出HTTP请求     https://www.cnblogs.com/wzk153/p/10945313.html
+c++11 多线程入门教程（一）     https://www.cnblogs.com/DOMLX/p/10945309.html
+Redis中的LRU淘汰策略分析     https://www.cnblogs.com/linxiyue/p/10945216.html
+ASP.NET Core模块化前后端分离快速开发框架介绍之4、模块化实现思路     https://www.cnblogs.com/oldli/p/10945137.html
+借鉴redux，实现一个react状态管理方案     https://www.cnblogs.com/xujiazheng/p/10945110.html
+abp(net core)+easyui+efcore仓储系统——解决方案介绍(二)     https://www.cnblogs.com/chillsrc/p/10944870.html
+volatile底层原理详解     https://www.cnblogs.com/uniqueDong/p/10944244.html
+记一次序列化的JSON解析问题     https://www.cnblogs.com/cxuanBlog/p/10944164.html
+Angular8稳定版发布     https://www.cnblogs.com/xzsty/p/10942900.html
+张高兴的 .NET Core IoT 入门指南：（四）使用 SPI 进行通信     https://www.cnblogs.com/zhanggaoxing/p/10943822.html
+大型网站架构演化发展历程     https://www.cnblogs.com/cxuanBlog/p/10943743.html
+机器学习框架ML.NET学习笔记【1】基本概念与系列文章目录     https://www.cnblogs.com/seabluescn/p/10904391.html
+RabbitMQ使用教程（三）如何保证消息99.99%被发送成功？     https://www.cnblogs.com/zwwhnly/p/10943340.html
+关于PCA降维中遇到的python问题小结     https://www.cnblogs.com/hezhuoheng/p/10942258.html
+python接口自动化（四十一）- 发xml格式参数的post请求（超详解）     https://www.cnblogs.com/du-hong/p/10923930.html
+了解【Docker】从这里开始     https://www.cnblogs.com/wmyskxz/p/10943169.html
+WebGL之物体选择     https://www.cnblogs.com/edwardloveyou/p/10943102.html
+[知乎作答]·关于在Keras中多标签分类器训练准确率问题     https://www.cnblogs.com/xiaosongshine/p/10942969.html
+.NET Core微服务 权限系统+工作流（二）工作流系统     https://www.cnblogs.com/wms01/p/10940565.html
+一次Zookeeper 扩展之殇     https://www.cnblogs.com/yixinjishu/p/10942808.html
+这个五月，我拿到了腾讯暑期offer     https://www.cnblogs.com/yueshutong/p/10942787.html
+ThreadPoolExecutor线程池的keepAliveTime     https://www.cnblogs.com/zxporz/p/10940251.html
+Spring Cloud微服务初探     https://www.cnblogs.com/dimple91/p/10942559.html
+Angular 8 发布     https://www.cnblogs.com/haogj/p/10942551.html
+DevOps的工程化     https://www.cnblogs.com/worktile/p/10942213.html
+koa2 从入门到进阶之路 （四）     https://www.cnblogs.com/weijiutao/p/10691481.html
+开源分布式Job系统,调度与业务分离-如何创建一个计划HttpJob任务     https://www.cnblogs.com/yudongdong/p/10942028.html
+企业要为现金流建模     https://www.cnblogs.com/BigTall/p/10942006.html
+3年，阅读量100万+, Github Star 15000+     https://www.cnblogs.com/ityouknow/p/10941889.html
+解决问题通用方法论     https://www.cnblogs.com/nesger/p/10941878.html
+稳定性三十六计-历史记录     https://www.cnblogs.com/xiexj/p/10941852.html
+.Net core使用XRPC创建远程接口的Actor对象     https://www.cnblogs.com/smark/p/10941819.html
+为什么有人会觉得IT门槛低，工资高？     https://www.cnblogs.com/moonhmily/p/10941774.html
+[WPF自定义控件库]简单的表单布局控件     https://www.cnblogs.com/dino623/p/WPF-Form-Layout.html
+Ceres Solver: 高效的非线性优化库（二）实战篇     https://www.cnblogs.com/zjulion/p/10941740.html
+CQRS之旅——旅程1(我们的领域：Contoso会议管理系统)     https://www.cnblogs.com/angrymoto/p/cqrs-journey-day1.html
+设计模式看了又忘，忘了又看？     https://www.cnblogs.com/liebrother/p/10941660.html
+Spring Cloud Ribbon负载均衡     https://www.cnblogs.com/cxuanBlog/p/10941576.html
+深入V8引擎-Time核心方法之win篇(2)     https://www.cnblogs.com/QH-Jimmy/p/10940840.html
+软件架构之道的一次感悟     https://www.cnblogs.com/ztfjs/p/10941458.html
+Aura Component Skills & Tools     https://www.cnblogs.com/zero-zyq/p/10935506.html
+net core 的Generic Host 之Generic Host Builder     https://www.cnblogs.com/blue-tian/p/10941235.html
+浅谈堆-Heap（一）     https://www.cnblogs.com/blentle/p/10941119.html
+算法导论课后习题解答 第一部分 练习1.1-1->1.1-5     https://www.cnblogs.com/godoforange/p/10940674.html
+朱晔的互联网架构实践心得S2E7:漫谈平台架构的工作（基础架构、基础服务、基础平台、基础中间件等等）     https://www.cnblogs.com/lovecindywang/p/10941007.html
+nginx配置SSL证书实现https服务     https://www.cnblogs.com/tugenhua0707/p/10940977.html
+Kaggle八门神器（一）：竞赛神器之XGBoost介绍     https://www.cnblogs.com/chdee/p/10940380.html
+单周期cpu设计代码解读     https://www.cnblogs.com/hesse-summer/p/10940775.html
+实战算法——多叉树全路径遍历     https://www.cnblogs.com/hwtblog/p/10940692.html
