@@ -22,6 +22,7 @@
 - [x] [📛XianyuCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/XianyuCrawler)：闲鱼商品爬取
 - [x] [SohuNewCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/SohuNewCrawler)：新闻网爬取
 - [ ] [📛WechatCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/WechatCrawler)：微信公众号爬取
+- [x] [cnblog](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/cnblog)：scrapy博客园爬取
 - [x] [OtherCrawlers](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler)：一些有趣的爬虫例子
   - [x] [0x01 百度贴吧](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler#0x01baidutieba)
   - [x] [0x02 豆瓣电影](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler#0x02doubanmovie)
