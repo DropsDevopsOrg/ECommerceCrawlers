@@ -55,7 +55,7 @@
 - 数据采集
   - [x] [urllib]()
   - [x] [requests](https://2.python-requests.org//zh_CN/latest/user/quickstart.html)
-  - [ ] scrapy
+  - [x] scrapy
   - [x] selenium
   - [ ] pypputeer 
 - 数据解析
