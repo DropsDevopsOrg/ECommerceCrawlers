@@ -75,6 +75,24 @@ def _get_review_conment_page(self):  # 获得评论内容
 
 首先我们通过F12找到对应的评论中的隐藏的字，然后根据class的属性就能找到索要加载的css与svg。我们发现一个文字有对应的一个标签，且相同的字体拥有同样的标签。这样就好办了。找到对应的文字，大概3-5个不同标签。记录下对应的标签-css中坐标位置-svg中文字的xy坐标位置。
 
+css文件内容样例：`.owfmjw{background:-154.0px -2201.0px;}`
+```
+.owfmjw{background:-154.0px -2201.0px;}.owfe1r{background:-364.0px -1420.0px;}.owfxo6{background:-14.0px -1455.0px;}.owfy4m{background:-266.0px -2019.0px;}.owfjg4{background:-392.0px -1532.0px;}.occsi7{background:-92.0px -60.0px;}.owffde{background:-448.0px -622.0px;}.owf3mq{background:-462.0px -1924.0px;}.owfka1{background:-350.0px -2114.0px;}.owfvy8{background:-308.0px -62.0px;}.owfel7{background:-224.0px -622.0px;}.owf37y{background:-14.0px -373.0px;}.owfl4g{background:-560.0px -2333.0px;}.owflht{background:-112.0px -1306.0px;}.owfjrf{background:-574.0px -662.0px;}.owfidj{background:-210.0px -1847.0px;}.owfzvj{background:-448.0px -1420.0px;}.occfbp{background:-442.0px -60.0px;}.owfb9e{background:-224.0px -1217.0px;}.owfaug{background:-322.0px -1171.0px;}.owfjcj{background:-560.0px -1498.0px;}.owfmw6{background:-532.0px -1348.0px;}.owfurs{background:-154.0px -373.0px;}.owfgsd{background:-154.0px -2163.0px;}.owftup{background:-392.0px -2163.0px;}.owfz1d{background:-322.0px -2243.0px;}.owfvmg{background:-546.0px -1878.0px;}.owfpau{background:-42.0px -1217.0px;}.owfmdm{background:-434.0px -798.0px;}.owfvxu{background:-532.0px -842.0px;}.owf76l{background:-196.0px -415.0px;}.owf0gi{background:-28.0px -195.0px;}.owfda1{background:-462.0px -284.0px;}.owfchs{background:-434.0px -1171.0px;}.owfw6z{background:-518.0px -327.0px;}.owfqqf{background:-196.0px -955.0px;}.owfq1l{background:-126.0px -912.0px;}.owfs36{background:-476.0px -62.0px;}.owfe0y{background:-42.0px -2333.0px;}.owfw6o{background:-490.0px -2163.0px;}.owf75m{background:-532.0px 
+```
+
+svg内容样例`<text x="0" y="46">历分爆</text>`
+
+```
+<text x="0" y="46">历分爆锅父碰茅恐寸矮异唐险乓绢梢菊装罗拘欲则悲鹊北奉慕袄限洞都凶千密暮达快容糖秧澡私</text>
+<text x="0" y="85">扔品惕倦南观只死夺刊浑糠扭康淡蛛妄冶夫捡喷脚情项遵发滋铜灌锣垫盲极歉事讲腰押穿果或廉</text>
+<text x="0" y="129">趁鼓鸽幼翅脖尼畅抽遗绸删被海乞肺识垄素湾齐室梦姑善朗皮乒助摄办长令胜炼搂陡漫场浪般价</text>
+<text x="0" y="169">兔朱肝朽踪骡弓帝人腐津代典志解责博建酬阳出技必诗救窑摘堤扁峰焰虏孩骑御愉爸敌阀顿仇于</text>
+<text x="0" y="218">挂遍等纷壮隶非猾匹会载岸萄置缎姜星龙珍深许构违势医夹首卜汁把嘱顶拿痛翁狱样枝销疑崇泻</text>
+<text x="0" y="259">伞追困到惜系伍奔贸野云蛇炮虫童供内猜忍轿沙布执挑如得呀境祸岗饮又乡灿搜扣脂遇中乙迈缺</text>
+<text x="0" y="307">沟勺瓶毛岂宙汉奏愈返们姿化普压连宾货截您唇璃兰雨染墨恢棕植灰垮茶右敞为太杰隙香雹将呆</text>
+<text x="0" y="350">稳柄劳督仰股轧扎崖我悼影饱专药给职逮剃耽骗拳尘提摧践瑞谈饺杨渔占孝亭林娃晃鄙临央催箱</text>
+```
+
 一般找到3-5个文字就能猜出了文字库的规律。
 
 ```
