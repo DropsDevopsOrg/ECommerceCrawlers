@@ -17,6 +17,7 @@
 - [x] [0x07 药监局](#0x07gdfda_pharmacy)
 - [x] [0x08 fofa](#0x08Fofa)
 - [x] [0x09 autohome](#0x09autohome)
+- [x] [0x10 baidu](#0x10baidu)
 - 
 ## 有趣的爬虫介绍
 
@@ -96,3 +97,13 @@
 **练习知识点**
 
 - 无
+
+### [0x10baidu](0x10baidu)
+
+**关于百度搜索关键词收录数爬取[分析与描述(0x10baidu/百度关键词收录数爬取.md)]**
+
+**练习知识点**
+
+- 多线程
+- csv
+- xpath
