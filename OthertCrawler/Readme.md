@@ -18,7 +18,7 @@
 - [x] [0x08 fofa](#0x08Fofa)
 - [x] [0x09 autohome](#0x09autohome)
 - [x] [0x10 baidu](#0x10baidu)
- 
+- [x] [0x11 蜘蛛泛目录](#0x11zzc) 
 ## 有趣的爬虫介绍
 
 ### [0x01baidutieba](0x01baidutieba)
@@ -107,3 +107,13 @@
 - 多线程
 - csv
 - xpath
+
+### [0x11蜘蛛泛目录](0x11zzc)
+
+**关于网站泛目录的蜘蛛爬取[分析与描述](0x11zzc/readme.md)**
+
+**练习知识点**
+
+- tkinter界面编程
+- 多线程
+- queue队列
