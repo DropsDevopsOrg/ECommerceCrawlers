@@ -65,7 +65,7 @@ print(html.unescape(title))
 
 ## 展示
 
-
+下载[编译完成项目](https://github.com/DropsDevopsOrg/ECommerceCrawlers/releases/download/V11_0.1/tk_zzc.exe)
 打开exe后自动初始化项目
 
 在配置中输入域名`http://richuriluo.qhdi.com/yl`，次数100，线程10，频率0，路径等。
