@@ -19,6 +19,7 @@
 ## CrawlerDemo
 - [x] [DianpingCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/DianpingCrawler)：大众点评爬取
 - [x] [📛TaobaoCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/TaobaoCrawler)：淘宝商品爬取
+- [x] [📛ZhaopinCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/ZhaopinCrawler)：各大招聘网站爬取
 - [x] [📛XianyuCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/XianyuCrawler)：闲鱼商品爬取
 - [x] [SohuNewCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/SohuNewCrawler)：新闻网爬取
 - [ ] [📛WechatCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/WechatCrawler)：微信公众号爬取
