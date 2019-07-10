@@ -2,7 +2,7 @@
 __author__ = 'Joynice'
 
 import os
-from core.QCWY import QCWY
+from core.qcwy import QCWY
 from core.boss import Boss
 from core.zhilian import ZhiLian
 from multiprocessing import Pool
