@@ -94,7 +94,23 @@ class Fofa():
             }
             print(product)
             self.save_to_mongo(product)
+            
+#             # 保存格式为https:http ip port 任意组合形式 可以任意修改 现阶段为 http://domain:80 https://domain:443  domain:3389
+#             url=  item.find('.list_mod_t').text()
+#             url_list = url.split('\n')
+#             domain=url_list[0]
+#             port = url_list[1]
+#             if port=='80':
+#                 domain='http://'+domain
+#             result = domain+':'+port+'\n'
+#             self.save_text(result)
 
+
+    def save_to_txt(self,result)
+        # 应安全人员要求保存txt形式
+        with open ('result.txt','a+')as f:
+            f.write(result+'\n')
+        pass
     # 存储到mongodb
     def save_to_mongo(self, result):
         try:
