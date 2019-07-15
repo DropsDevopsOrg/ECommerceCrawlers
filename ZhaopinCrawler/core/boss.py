@@ -61,7 +61,7 @@ class Boss(object):
                     except: size = '无'
                     who = html.xpath('//*[@id="main"]/div/div[3]/ul/li[{}]/div/div[3]/h3/text()[1]'.format(i))[0]
                     try:
-                        job = html.xpath('//*[@id="main"]/div/div[3]/ul/li[1]/div/div[3]/h3/text()[2]'.format(i))[0]
+                        job = html.xpath('//*[@id="main"]/div/div[3]/ul/li[{}]/div/div[3]/h3/text()[2]'.format(i))[0]
                     except:
                         job = '无'
                     Hr = '{}/{}'.format(who, job)
