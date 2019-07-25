@@ -37,11 +37,13 @@ pyquery可以根据`class`，`id`，`div`的属性进行解析。
 
 核心使用异步请求的方式[传送门README](asyxianyuREADME.md)
 
-[项目部分代码.py]()
+[项目部分代码.py](https://github.com/Hatcat123/XianyuSdd/blob/master/asy.py)
 
 ![](https://raw.githubusercontent.com/Hatcat123/GraphicBed/master/Img/20190426111615.png)
 
 [具体项目](https://github.com/Hatcat123/XianyuSdd)
+
+更新使用方式、7-25日 项目仍然能继续运行
 
 ### 0x05 结果对比
 
