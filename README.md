@@ -23,16 +23,16 @@
 >收益表
 
 |项目|收益|备注|
-|:-:|:-:|:-:|:-:
-|DianpingCrawler|200||
-|TaobaoCrawler|2000||
-|SohuNewCrawler|2500||
+|:--|--:|:-:|
+|DianpingCrawler|200|
+|TaobaoCrawler|2000|
+|SohuNewCrawler|2500|
 |WechatCrawler|未定|暂无具体收益|
-|某省药监局|80||
-|fofa|700||
-|baidu|1000||
-|蜘蛛泛目录|1000||
-|更多……|更多……|另部分程序未得到客户开源认可
+|某省药监局|80|
+|fofa|700|
+|baidu|1000|
+|蜘蛛泛目录|1000|
+|更多……|……|另部分程序未得到客户开源认可|
 
 ## CrawlerDemo
 - [x] [DianpingCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/DianpingCrawler)：大众点评爬取
