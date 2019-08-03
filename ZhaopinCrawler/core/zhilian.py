@@ -5,7 +5,8 @@ import requests
 from utils.utils import get_header
 import csv
 import os
-
+from lxml.html import etree
+import config
 
 class ZhiLian(object):
     '''
@@ -21,8 +22,9 @@ class ZhiLian(object):
         self.base_url = 'https://fe-api.zhaopin.com/c/i/sou'
         self.city = city
         self.csv_header = ['ID', '工作名称', '招聘详细链接', '公司名称', '公司ID', '公司性质', '公司规模', '公司招聘主页',
-                           '公司地点', '薪资', '学历要求', '工作经历', '职位类型', '公司福利', '工作发布标签', '更新时间']
+                           '公司地点', '薪资', '学历要求', '工作经历', '职位类型', '公司福利', '工作发布标签', '更新时间', '职位描述']
         self.path = path
+
 
     def Spider(self):
         jobl = []
@@ -41,10 +43,12 @@ class ZhiLian(object):
                 "salary": '0, 0'
             }
             req = requests.get(url=self.base_url, params=params, headers=get_header())
+            cookie = req.cookies
+            print(cookie)
             data = req.json()['data']['results']
             if len(data) != 0:
                 for job in data:
-                    print(job)
+                    # print(job)
                     jobd = {}
                     jobd['ID'] = job.get('number')
                     jobd['工作名称'] = job.get('jobName')
@@ -66,6 +70,19 @@ class ZhiLian(object):
                     jobd['公司福利'] = '、'.join(job.get('welfare')) or '无'
                     jobd['工作发布标签'] = job.get('timeState')
                     jobd['更新时间'] = job.get('updateDate')
+                    header = get_header()
+                    header['referer'] = job.get('positionURL')
+                    header['upgrade-insecure-requests'] = '1'
+                    header['cookie'] = config.ZHILIAN_COOKIE
+                    req1 = requests.get(job.get('positionURL'), headers=header, )
+                    req1.encoding = 'utf-8'
+                    html = etree.HTML(req1.text)
+                    detail = ''.join(html.xpath('//*[@class="describtion__detail-content"]//*/text()'))
+                    if not detail:
+                        detail = ''.join(html.xpath('//*[@class="describtion__detail-content"]/text()'))
+                    print(job.get('positionURL'))
+                    print(detail)
+                    jobd['职位描述'] = detail.strip()
                     jobl.append(jobd)
             else:
                 break
@@ -77,7 +94,7 @@ class ZhiLian(object):
             data = self.Spider()
             self.path = os.path.join(self.path, 'save-data')
             with open(os.path.join(self.path, '智联招聘_关键词_{}_城市_{}.csv'.format(self.keyword, self.city)), 'w',
-                      newline='', encoding='gb18030') as f:
+                      newline='', encoding='utf-8-sig') as f:
                 f_csv = csv.DictWriter(f, self.csv_header)
                 f_csv.writeheader()
                 f_csv.writerows(data)

@@ -1,4 +1,3 @@
-# encoding: utf-8
 __author__ = 'Joynice'
 from utils.utils import get_header, get_time
 import requests
@@ -60,6 +59,7 @@ class QCWY(object):
                         break
                     name = html.xpath('//*[@id="resultList"]/div[{}]/span[1]/a/text()'.format(i))
                     url = html.xpath('//*[@id="resultList"]/div[{}]/p/span/a/@href'.format(i))
+                    print(url[0])
                     area = html.xpath('//*[@id="resultList"]/div[{}]/span[2]/text()'.format(i))
                     salery = html.xpath('//*[@id="resultList"]/div[{}]/span[3]/text()'.format(i))
                     time = html.xpath('//*[@id="resultList"]/div[{}]/span[4]/text()'.format(i))
@@ -68,12 +68,12 @@ class QCWY(object):
                         "详细链接": url[0],
                         "公司名称": name[0],
                         "工作地点": area[0],
-                        "薪资": salery[0],
+                        "薪资": salery[0] if len(salery)!=0 else None,
                         "发布时间": time[0]
                     }
                     self.jobqueue.put(data)
                 except:
-                    break
+                    continue
 
     def run(self):
         self._get_max_page()
@@ -99,4 +99,4 @@ class QCWY(object):
 
 
 if __name__ == '__main__':
-    a = QCWY(keyword='java', city='北京').run()
+    a = QCWY(keyword='java', city='郑州').run()

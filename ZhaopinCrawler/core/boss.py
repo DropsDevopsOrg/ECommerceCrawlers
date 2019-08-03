@@ -22,7 +22,7 @@ class Boss(object):
         self.path = path
         self.base_url = 'https://www.zhipin.com/'
         self.jobqueue = queue.Queue()
-        self.csv_header = ['职位名称', '公司名称', '工作地点', '薪资', '工作经验', '学历要求', '所属领域', '公司状态',
+        self.csv_header = ['职位名称', '职位链接', '公司名称', '工作地点', '薪资', '工作经验', '学历要求', '所属领域', '公司状态',
                            '公司规模', '发布人']
         self.downloadqueue = queue.Queue()
 
@@ -49,6 +49,7 @@ class Boss(object):
             if page == 1:
                 for i in range(1, 30):
                     title = html.xpath('//*[@id="main"]/div/div[3]/ul/li[{}]/div/div[1]/h3/a/div[1]/text()'.format(i))[0]
+                    link = self.base_url.rstrip('/') + html.xpath('//*[@id="main"]/div/div[3]/ul/li[{}]/div/div[1]/h3/a/@href'.format(i))[0]
                     name = html.xpath('//*[@id="main"]/div/div[3]/ul/li[{}]/div/div[2]/div/h3/a/text()'.format(i))[0]
                     data1 = html.xpath('//*[@id="main"]/div/div[3]/ul/li[{}]/div/div[1]/p/text()'.format(i))
                     area = data1[0]
@@ -66,13 +67,14 @@ class Boss(object):
                         job = '无'
                     Hr = '{}/{}'.format(who, job)
                     data = {}
-                    data.update(职位名称=title,公司名称=name,工作地点=area,薪资=salery,工作经验=exp,学历要求=study,所属领域=belong,公司状态=status,公司规模=size,发布人=Hr)
+                    data.update(职位名称=title,公司名称=name,职位链接=link, 工作地点=area,薪资=salery,工作经验=exp,学历要求=study,所属领域=belong,公司状态=status,公司规模=size,发布人=Hr)
                     self.downloadqueue.put(data)
             else:
                 try:
                     for i in range(1,31):
                         title = html.xpath('//*[@id="main"]/div/div[2]/ul/li[{}]/div/div[1]/h3/a/div[1]/text()'.format(i))[0]
                         name = html.xpath('//*[@id="main"]/div/div[2]/ul/li[{}]/div/div[2]/div/h3/a/text()'.format(i))[0]
+                        link = self.base_url.rstrip('/') + html.xpath('//*[@id="main"]/div/div[2]/ul/li[{}]/div/div[1]/h3/a/@href'.format(i))[0]
                         data1 = html.xpath('//*[@id="main"]/div/div[2]/ul/li[{}]/div/div[1]/p/text()'.format(i))
                         area = data1[0]
                         salery = html.xpath('//*[@id="main"]/div/div[2]/ul/li[{}]/div/div[1]/h3/a/span/text()'.format(i))[0]
@@ -91,10 +93,10 @@ class Boss(object):
                             job = '无'
                         Hr = '{}/{}'.format(who, job)
                         data = {}
-                        data.update(职位名称=title, 公司名称=name, 工作地点=area, 薪资=salery, 工作经验=exp, 学历要求=study, 所属领域=belong,
+                        data.update(职位名称=title, 公司名称=name, 职位链接=link,工作地点=area, 薪资=salery, 工作经验=exp, 学历要求=study, 所属领域=belong,
                                     公司状态=status, 公司规模=size, 发布人=Hr)
                         self.downloadqueue.put(data)
-                except:
+                except Exception as e:
                     continue
     def run(self):
         data = []
