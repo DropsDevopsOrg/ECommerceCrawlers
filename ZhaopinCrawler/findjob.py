@@ -7,6 +7,11 @@ from core.boss import Boss
 from core.zhilian import ZhiLian
 from multiprocessing import Pool
 
+
+# TODO:Boss直聘反爬
+
+
+
 if __name__ == '__main__':
     downloadpath = os.path.join(os.getcwd(), 'save-data')
     if os.path.exists(downloadpath):
@@ -29,10 +34,13 @@ if __name__ == '__main__':
             elif web == '3':
                 ZhiLian(city=city, keyword=keyword).run()
             elif web == '4':
-                pool = Pool(processes=3)
-                pool.apply_async([QCWY(city=city, keyword=keyword).run(), Boss(city=city, keyword=keyword).run(), ZhiLian(city=city, keyword=keyword).run()])
+                pool = Pool(processes=4)
+                for i in [ZhiLian(city=city, keyword=keyword).run(), QCWY(city=city, keyword=keyword).run(), Boss(city=city, keyword=keyword).run()]:
+                    pool.apply_async(i)
                 pool.close()
                 pool.join()
+
+
             print('数据爬取完成，请进入save-data文件夹中取出文件')
     else:
         print('没有找到save-data文件夹！请创建后重新启动！')

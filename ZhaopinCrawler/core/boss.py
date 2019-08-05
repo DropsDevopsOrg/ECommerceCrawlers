@@ -23,7 +23,7 @@ class Boss(object):
         self.base_url = 'https://www.zhipin.com/'
         self.jobqueue = queue.Queue()
         self.csv_header = ['职位名称', '职位链接', '公司名称', '工作地点', '薪资', '工作经验', '学历要求', '所属领域', '公司状态',
-                           '公司规模', '发布人']
+                           '公司规模', '发布人', '职位信息', '公司介绍', '工商信息']
         self.downloadqueue = queue.Queue()
 
     def _get_city_code(self):
@@ -66,8 +66,17 @@ class Boss(object):
                     except:
                         job = '无'
                     Hr = '{}/{}'.format(who, job)
+                    req1 = requests.get(url=link, headers=get_header())
+                    req1.encoding = 'utf-8'
+                    html1 = etree.HTML(req1.text)
+                    detail = ''.join(html1.xpath('//*[@class="job-sec"][1]//*/text()')).strip()
+                    gongsi = ''.join(html1.xpath('//*[@class="job-sec company-info"]//*/text()')).strip()
+                    gongshang = ''.join(html1.xpath('//*[@class="job-sec"][3]//*/text()')).strip()
+                    if '点击查看地图' in gongshang:
+                        gongshang = ''.join(html1.xpath('//*[@class="job-sec"][2]//*/text()')).strip()
                     data = {}
-                    data.update(职位名称=title,公司名称=name,职位链接=link, 工作地点=area,薪资=salery,工作经验=exp,学历要求=study,所属领域=belong,公司状态=status,公司规模=size,发布人=Hr)
+                    data.update(职位名称=title, 公司名称=name, 职位链接=link, 工作地点=area, 薪资=salery, 工作经验=exp, 学历要求=study,
+                                所属领域=belong, 公司状态=status, 公司规模=size, 发布人=Hr, 职位信息=detail, 公司介绍=gongsi, 工商信息=gongshang)
                     self.downloadqueue.put(data)
             else:
                 try:
@@ -92,9 +101,19 @@ class Boss(object):
                         except:
                             job = '无'
                         Hr = '{}/{}'.format(who, job)
+                        req1 = requests.get(url=link, headers=get_header())
+                        req1.encoding = 'utf-8'
+                        html1 = etree.HTML(req1.text)
+                        detail = ''.join(html1.xpath('//*[@class="job-sec"][1]//*/text()')).strip()
+                        gongsi = ''.join(html1.xpath('//*[@class="job-sec company-info"]//*/text()')).strip()
+                        gongshang = ''.join(html1.xpath('//*[@class="job-sec"][3]//*/text()')).strip()
+                        if '点击查看地图' in gongshang:
+                            gongshang = ''.join(html1.xpath('//*[@class="job-sec"][2]//*/text()')).strip()
+                        print(detail)
                         data = {}
-                        data.update(职位名称=title, 公司名称=name, 职位链接=link,工作地点=area, 薪资=salery, 工作经验=exp, 学历要求=study, 所属领域=belong,
-                                    公司状态=status, 公司规模=size, 发布人=Hr)
+                        data.update(职位名称=title, 公司名称=name, 职位链接=link, 工作地点=area, 薪资=salery, 工作经验=exp, 学历要求=study,
+                                    所属领域=belong, 公司状态=status, 公司规模=size, 发布人=Hr, 职位信息=detail, 公司介绍=gongsi,
+                                    工商信息=gongshang)
                         self.downloadqueue.put(data)
                 except Exception as e:
                     continue
@@ -112,4 +131,4 @@ class Boss(object):
                 f_csv.writerows(data)
 
 if __name__ == '__main__':
-    a = Boss(keyword='java', city='徐州').run()
+    a = Boss(keyword='java', city='北京').run()
