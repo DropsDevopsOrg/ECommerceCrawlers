@@ -8,8 +8,8 @@
 
 经过查找，找到能搜索关键字的链接`https://s.2.taobao.com/list/?q=关键字&page=2&search_type=item&_input_charset=utf8`
 
-经过多次爬取发现闲鱼并没有太多的反爬虫验证，索性连ua都不用给。
-
+经过多次爬取发现闲鱼并没有太多的反爬虫验证，索性连ua都不用给。【2019-08-07[接口失效](https://github.com/DropsDevopsOrg/ECommerceCrawlers/issues/9#issuecomment-518585101)】
+https://github.com/DropsDevopsOrg/ECommerceCrawlers/issues/9#issuecomment-518585101
 闲鱼只能爬取某一个关键字商品前100页面。想要获取所有数据的思路：100页的数据量100x20=2k条左右，全部商品有200k，爬取商品总数量，按照地区分级爬取，如果分级后仍然大于2k，继续分地级。
 
 *只提供思路，并未实现*
