@@ -7,6 +7,7 @@
 - [BOSS直聘](https://www.zhipin.com/)
 - [前程无忧51Job](https://www.51job.com/)
 - [智联招聘](https://www.zhaopin.com/)
+- [拉钩网](https://www.lagou.com/)
 
 **持续更新**
 
@@ -34,4 +35,4 @@ python findjob.py
 ```
 ### 数据展示
 
-![测试数据](https://raw.githubusercontent.com/Joynice/image/master/img/TIM%E6%88%AA%E5%9B%BE20190710155357.png)
+![数据展示](https://raw.githubusercontent.com/Joynice/image/master/img/TIM%E6%88%AA%E5%9B%BE20190812150305.png)
