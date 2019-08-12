@@ -80,7 +80,6 @@ class ZhiLian(object):
                     detail = ''.join(html.xpath('//*[@class="describtion__detail-content"]//*/text()'))
                     if not detail:
                         detail = ''.join(html.xpath('//*[@class="describtion__detail-content"]/text()'))
-                    print(job.get('positionURL'))
                     print(detail)
                     jobd['职位描述'] = detail.strip()
                     jobl.append(jobd)

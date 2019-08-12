@@ -19,7 +19,13 @@ keyword: 搜索关键词（如：java、python、平面设计等等）
 ```
 同时可以选择使用其中一个网站获取数据，也可以选择所有网站进行数据获取。
 
+
 ### How To Use
+
+使用之前在config.py文件中设置智联招聘的cookie，不然智联招聘反爬会验证cookie，同时Boss直聘存在反爬，会验证ip，频繁访问导致封禁IP。
+
+![](https://raw.githubusercontent.com/Joynice/image/master/img/TIM%E6%88%AA%E5%9B%BE20190805153420.png)
+
 
 ```text
 pip install requests

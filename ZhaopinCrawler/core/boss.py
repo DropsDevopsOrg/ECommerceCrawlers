@@ -70,6 +70,9 @@ class Boss(object):
                     req1.encoding = 'utf-8'
                     html1 = etree.HTML(req1.text)
                     detail = ''.join(html1.xpath('//*[@class="job-sec"][1]//*/text()')).strip()
+                    if detail.isspace():
+                        detail = ''.join(html1.xpath('//*[@class="job-sec"][1]/text()')).strip()
+                    print(detail)
                     gongsi = ''.join(html1.xpath('//*[@class="job-sec company-info"]//*/text()')).strip()
                     gongshang = ''.join(html1.xpath('//*[@class="job-sec"][3]//*/text()')).strip()
                     if '点击查看地图' in gongshang:

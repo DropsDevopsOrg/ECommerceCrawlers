@@ -69,6 +69,7 @@ class QCWY(object):
                     detail = ''.join(html1.xpath('//*[@class="bmsg job_msg inbox"]//*/text()'))
                     if detail.isspace():
                         detail = ''.join(html1.xpath('//*[@class="bmsg job_msg inbox"]/text()'))
+                    print(detail)
                     gongsi = ''.join(html1.xpath('//*[@class="tmsg inbox"]/text()'))
                     if gongsi.isspace():
                         gongsi = ''.join(html1.xpath('//*[@class="tmsg inbox"]//*/text()'))
