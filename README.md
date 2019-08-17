@@ -1,4 +1,4 @@
-﻿[![](https://img.shields.io/badge/language-Python35-green.svg)]()         [![](https://img.shields.io/badge/Branch-master-green.svg?longCache=true)]()           [![](https://img.shields.io/github/followers/DropsDevopsOrg.svg?label=Follow)]()      ![GitHub contributors](https://img.shields.io/github/contributors/DropsDevopsOrg/ECommerceCrawlers.svg)    [![](https://img.shields.io/github/forks/DropsDevopsOrg/ECommerceCrawlers.svg?label=Fork&style=social)]()       [![](https://img.shields.io/github/stars/DropsDevopsOrg/ECommerceCrawlers.svg?style=social)]()             [![](https://img.shields.io/github/watchers/DropsDevopsOrg/ECommerceCrawlers.svg?label=Watch&style=social)]() 
+[![](https://img.shields.io/badge/language-Python35-green.svg)]()         [![](https://img.shields.io/badge/Branch-master-green.svg?longCache=true)]()           [![](https://img.shields.io/github/followers/DropsDevopsOrg.svg?label=Follow)]()      ![GitHub contributors](https://img.shields.io/github/contributors/DropsDevopsOrg/ECommerceCrawlers.svg)    [![](https://img.shields.io/github/forks/DropsDevopsOrg/ECommerceCrawlers.svg?label=Fork&style=social)]()       [![](https://img.shields.io/github/stars/DropsDevopsOrg/ECommerceCrawlers.svg?style=social)]()             [![](https://img.shields.io/github/watchers/DropsDevopsOrg/ECommerceCrawlers.svg?label=Watch&style=social)]() 
 
 ## ECommerceCrawlers
 
@@ -36,6 +36,7 @@
 
 ## CrawlerDemo
 - [x] [DianpingCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/DianpingCrawler)：大众点评爬取
+- [x] [East_money](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/East_money)：scrapy爬取东方财富网
 - [x] [📛TaobaoCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/TaobaoCrawler)：淘宝商品爬取
 - [x] [📛ZhaopinCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/ZhaopinCrawler)：各大招聘网站爬取
 - [x] [ShicimingjuCrawleAndDisplayr](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/ShicimingjuCrawleAndDisplay)：诗词名家句网站爬取展示
