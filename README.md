@@ -16,10 +16,29 @@
 
 >在之前上传的大文件贯穿了3/4的commits，发现每次clone达到100M，这与我们最初的想法违背，我们不能很有效的删除每一个文件（太懒），将重新进行初始化仓库的commit。并在今后不上传爬虫数据，优化仓库结构。
 
+## Income
+
+几乎80%的项目都是帮客户写的爬虫，在添加到仓库之前已经经过客户同意可开源原则。
+
+>收益表
+
+|项目|收益|备注|
+|:--|--:|:-:|
+|DianpingCrawler|200|
+|TaobaoCrawler|2000|
+|SohuNewCrawler|2500|
+|WechatCrawler|未定|暂无具体收益|
+|某省药监局|80|
+|fofa|700|
+|baidu|1000|
+|蜘蛛泛目录|1000|
+|更多……|……|另部分程序未得到客户开源认可|
+
 ## CrawlerDemo
 - [x] [DianpingCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/DianpingCrawler)：大众点评爬取
 - [x] [📛TaobaoCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/TaobaoCrawler)：淘宝商品爬取
 - [x] [📛ZhaopinCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/ZhaopinCrawler)：各大招聘网站爬取
+- [x] [ShicimingjuCrawleAndDisplayr](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/ShicimingjuCrawleAndDisplay)：诗词名家句网站爬取展示
 - [x] [📛XianyuCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/XianyuCrawler)：闲鱼商品爬取
 - [x] [SohuNewCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/SohuNewCrawler)：新闻网爬取
 - [ ] [📛WechatCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/WechatCrawler)：微信公众号爬取
@@ -39,9 +58,9 @@
   - [x] [0x11 蜘蛛泛目录](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler/0x11zzc)
 ## Contribution👏
 
-|<a  href="https://github.com/Joynice"><img class="avatar" src="https://avatars0.githubusercontent.com/u/22851022?s=96&amp;v=4" width="48" height="48" alt="@Joynice"></a>|<a href="https://github.com/liangweiyang"><img class="avatar" src="https://avatars0.githubusercontent.com/u/37971213?s=96&amp;v=4" width="48" height="48" alt="@liangweiyang"></a>|<a href="https://github.com/Hatcat123"><img class="avatar" src="https://avatars0.githubusercontent.com/u/28727970?s=96&amp;v=4" width="48" height="48" alt="@Hatcat123"></a>|
-|:-:|:-:|:-:|
-|[Joynice](https://github.com/Joynice)|[liangweiyang](https://github.com/liangweiyang)|[Hatcat123](https://github.com/Hatcat123)|
+|<a  href="https://github.com/Joynice"><img class="avatar" src="https://avatars0.githubusercontent.com/u/22851022?s=96&amp;v=4" width="48" height="48" alt="@Joynice"></a>|<a href="https://github.com/liangweiyang"><img class="avatar" src="https://avatars0.githubusercontent.com/u/37971213?s=96&amp;v=4" width="48" height="48" alt="@liangweiyang"></a>|<a href="https://github.com/Hatcat123"><img class="avatar" src="https://avatars0.githubusercontent.com/u/28727970?s=96&amp;v=4" width="48" height="48" alt="@Hatcat123"></a>|<a href="https://github.com/jihu9"><img class="avatar" src="https://avatars0.githubusercontent.com/u/17663102?s=96&amp;v=4" width="48" height="48" alt="@jihu9"></a>|
+|:-:|:-:|:-:|:-:|
+|[Joynice](https://github.com/Joynice)|[liangweiyang](https://github.com/liangweiyang)|[Hatcat123](https://github.com/Hatcat123)|[jihu9](https://github.com/jihu9)|
 
 > wait for you
 

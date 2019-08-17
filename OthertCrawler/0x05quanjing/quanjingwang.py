@@ -1,3 +1,4 @@
+#-*- coding:utf-8 -*-
 # 多线程，自动创建文件夹，每个页面单独存储一个文件夹
 
 import requests
@@ -16,7 +17,7 @@ pipei = re.compile('lowsrc="(.*?)" m=')     #
 
 def get_url(page):
     for i in range(1, page+1):
-        url = string + str(i) + '.html'
+        url = string +'{}.html'.format(i) #更改网址拼接形式
         url_queue.put(url)
     # print(url_queue.queue)
 

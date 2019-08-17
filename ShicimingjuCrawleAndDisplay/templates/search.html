@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ request.args.get('keyword') }}</title>
+     <script src="{{ url_for('static', filename='js/sweetalert/sweetalert.min.js') }}"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/sweetalert.css') }}">
+    <script src="{{ url_for('static', filename='js/sweetalert/zlalert.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/layui/layui.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/search.js') }}"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='js/layui/css/layui.css') }}">
+    <script src="{{ url_for('static', filename='js/echarts.min.js') }}"></script>
+
+
+</head>
+<body style="background:burlywood;">
+
+<ul class="layui-nav">
+    <li class="layui-nav-item">
+        <div class="layui-input-block">
+            <input type="text" name="title" placeholder="请输入关键字" autocomplete="off" class="layui-input"
+                   style="height: 40px; width: 200%" id="content">
+        </div>
+
+    </li>
+    <li class="layui-nav-item" style="margin-left: 11%">
+        <button type="button" class="layui-btn layui-btn-normal" id="search"> 搜索</button>
+    </li>
+</ul>
+
+<div class="layui-container" style="float: left">
+    <div class="layui-row layui-col-space10" style="margin-top: 10px; padding-left: 20px">
+        <div class="layui-col-md7 layui-col-sm7 layui-col-md-offset1">
+            {% if message %}
+                <h2>{{ message }}</h2>
+            {% else %}
+                <div class="layui-collapse">
+                    {% for foo in poem %}
+                        <div class="layui-colla-item">
+                            <h2 class="layui-colla-title"><span style="color:red;">{{ foo.title }}</span> <span style="float: right">{{ foo.poet.name }}({{ foo.poet.dynasty }})</span></h2>
+                            <div class="layui-colla-content layui-show" style="background: papayawhip">{{ foo.content }}</div>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+
+        </div>
+        <div class="layui-col-md4 layui-col-sm5">
+            {% if poet %}
+                <div class="layui-card">
+                    <div class="layui-card-header">{{ poet.name }}</div>
+                    <div class="layui-card-body">
+                        <span>年代：{{ poet.dynasty }}</span><br>
+                        <span>收录：{{ poem|length }}首</span><br>
+                        {% if poet.introduction %}
+                            <span>{{ poet.introduction }}</span>
+                        {% endif %}
+                    </div>
+                </div>
+            {% endif %}
+        <div>
+            {{ chart|safe }}
+        </div>
+        </div>
+    </div>
+</div>
+<script>
+    layui.use('element', function () {
+        var element = layui.element;
+
+        //…
+    });
+    $(function(){
+		$.fn.snow({
+			minSize: 5,		//雪花的最小尺寸
+			maxSize: 40, 	//雪花的最大尺寸
+			newOn: 200		//雪花出现的频率 这个数值越小雪花越多
+		});
+	});
+</script>
+</body>
+</html>
