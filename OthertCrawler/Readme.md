@@ -12,13 +12,14 @@
 - [x] [0x02 豆瓣电影](#0x02doubanmovie)
 - [x] [0x03 阿里任务](#0x03alitask)
 - [x] [0x04 包图网视频](#0x04baotu)
-- [ ] [0x05 全景网图片](#0x05quanjing) 
+- [x] [0x05 全景网图片](#0x05quanjing) 
 - [x] [0x06 douban_music](#0x06douban_music)
 - [x] [0x07 药监局](#0x07gdfda_pharmacy)
 - [x] [0x08 fofa](#0x08Fofa)
 - [x] [0x09 autohome](#0x09autohome)
 - [x] [0x10 baidu](#0x10baidu)
 - [x] [0x11 蜘蛛泛目录](#0x11zzc) 
+- [x] [0x12 今日头条爬取](#0x12toutiao)
 ## 有趣的爬虫介绍
 
 ### [0x01baidutieba](0x01baidutieba)
@@ -117,3 +118,12 @@
 - tkinter界面编程
 - 多线程
 - queue队列
+
+
+### [0x12今日头条](0x12toutiao)
+
+**练习知识点**
+
+- selenium
+- try except
+- xpath

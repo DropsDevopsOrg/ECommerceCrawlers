@@ -57,6 +57,7 @@
   - [ ] [0x010 国家统计局]()
   - [x] [0x10 baidu](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler/0x10baidu)
   - [x] [0x11 蜘蛛泛目录](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler/0x11zzc)
+  - [x] [0x12 今日头条](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler/0x12toutiao)
 ## Contribution👏
 
 |<a  href="https://github.com/Joynice"><img class="avatar" src="https://avatars0.githubusercontent.com/u/22851022?s=96&amp;v=4" width="48" height="48" alt="@Joynice"></a>|<a href="https://github.com/liangweiyang"><img class="avatar" src="https://avatars0.githubusercontent.com/u/37971213?s=96&amp;v=4" width="48" height="48" alt="@liangweiyang"></a>|<a href="https://github.com/Hatcat123"><img class="avatar" src="https://avatars0.githubusercontent.com/u/28727970?s=96&amp;v=4" width="48" height="48" alt="@Hatcat123"></a>|<a href="https://github.com/jihu9"><img class="avatar" src="https://avatars0.githubusercontent.com/u/17663102?s=96&amp;v=4" width="48" height="48" alt="@jihu9"></a>|
