@@ -18,6 +18,7 @@ class Customer(DianpingComment):
         with open('code_dict.txt','a+',encoding='utf-8')as f:
             f.write(str(data)+'\n')
 
+
 if __name__ == "__main__":
     dianping = Customer('1726435', cookies=COOKIES)
     dianping.run()

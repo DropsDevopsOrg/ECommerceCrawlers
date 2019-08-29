@@ -10,3 +10,7 @@
 
 ### 知识点
 scrapy框架和xpath语法
+
+### 结果
+
+![结果展示](https://raw.githubusercontent.com/liangweiyang/picbed/master/result.PNG)
