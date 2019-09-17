@@ -121,9 +121,21 @@
 
 
 ### [0x12今日头条](0x12toutiao)
+关于今日头条的[分析与描述](https://github.com/DropsDevopsOrg/ECommerceCrawlers/blob/master/OthertCrawler/0x12toutiao/readme.md)
 
 **练习知识点**
 
 - selenium
 - try except
 - xpath
+
+### [0x13豆瓣影评分析](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler/0x13douban_yingping)
+
+关于豆瓣影评分析的[分析与描述](https://github.com/DropsDevopsOrg/ECommerceCrawlers/blob/master/OthertCrawler/0x13douban_yingping/readme.md)
+
+**练习知识点**
+- jieba分词
+- pyplot画图
+- wordcloud词云
+- Snownlp情感分析
+- selenium模拟浏览器
