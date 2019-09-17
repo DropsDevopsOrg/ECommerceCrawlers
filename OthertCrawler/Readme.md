@@ -20,6 +20,7 @@
 - [x] [0x10 baidu](#0x10baidu)
 - [x] [0x11 蜘蛛泛目录](#0x11zzc) 
 - [x] [0x12 今日头条爬取](#0x12toutiao)
+- [x] [0x13 豆瓣影评](#0x13douban_yingping)
 ## 有趣的爬虫介绍
 
 ### [0x01baidutieba](0x01baidutieba)
