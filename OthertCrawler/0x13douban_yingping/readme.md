@@ -53,15 +53,21 @@
     	plt.show()
 
 ### 结果
+
 Snownlp是针对商品品论的，拿来对影评做情感分析会有些误差。为了区别明显，这里选了流浪地球和逐梦演艺圈两部电影。后者豆瓣评分高达2.多。
+
 流浪地球的词云
 ![](https://raw.githubusercontent.com/liangweiyang/picbed/master/%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%83%E8%AF%8D%E4%BA%91.png)
+
 流浪地球的情感分析
 ![](https://raw.githubusercontent.com/liangweiyang/picbed/master/%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%83%E5%88%86%E6%9E%90.png)
+
 逐梦演艺圈的词云
 ![](https://raw.githubusercontent.com/liangweiyang/picbed/master/%E9%80%90%E6%A2%A6%E6%BC%94%E8%89%BA%E5%9C%88%E8%AF%8D%E4%BA%91.png)
+
 逐梦演艺圈的分析
 ![](https://raw.githubusercontent.com/liangweiyang/picbed/master/%E9%80%90%E6%A2%A6%E6%BC%94%E8%89%BA%E5%9C%88%E5%88%86%E6%9E%90.png)
+
 Snownlp情感分析在0.5以上算是好评，可以看到两部电影的评论差距明显。
 
 ### 遇到的一些问题
