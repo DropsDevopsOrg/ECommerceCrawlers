@@ -49,7 +49,7 @@
   - [x] [0x02 豆瓣电影](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler#0x02doubanmovie)
   - [x] [0x03 阿里任务](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler#0x03alitask)
   - [x] [0x04 包图网视频](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler#0x04baotu)
-  - [ ] [0x05 全景网图片](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler#0x05quanjing) 
+  - [x] [0x05 全景网图片](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler#0x05quanjing) 
   - [x] [0x06 豆瓣音乐](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler#0x06douban_music)
   - [x] [0x07 某省药监局](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler#0x07gdfda_pharmacy)
   - [x] [0x08 fofa](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler#0x08fofa)
