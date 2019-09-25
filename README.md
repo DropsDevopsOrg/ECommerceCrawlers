@@ -20,7 +20,10 @@
 
 几乎80%的项目都是帮客户写的爬虫，在添加到仓库之前已经经过客户同意可开源原则。
 
->收益表
+
+<details>
+<summary>收益表</summary>
+ 
 
 |项目|收益|备注|
 |:--|--:|:-:|
@@ -33,6 +36,8 @@
 |baidu|1000|
 |蜘蛛泛目录|1000|
 |更多……|……|另部分程序未得到客户开源认可|
+
+</details>
 
 ## CrawlerDemo
 - [x] [DianpingCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/DianpingCrawler)：大众点评爬取
