@@ -49,6 +49,7 @@
 - [x] [SohuNewCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/SohuNewCrawler)：新闻网爬取
 - [x] [📛WechatCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/WechatCrawler)：微信公众号爬取
 - [x] [cnblog](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/cnblog)：scrapy博客园爬取
+- [x] [WeiboCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/WeiboCrawler)：微博数据爬取免cookie
 - [x] [OtherCrawlers](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler)：一些有趣的爬虫例子
   - [x] [0x01 百度贴吧](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler#0x01baidutieba)
   - [x] [0x02 豆瓣电影](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler#0x02doubanmovie)
@@ -120,11 +121,15 @@
 
 ## What`s Spider 🕷？
 
+**[ECommerceCrawlerswiki](https://github.com/DropsDevopsOrg/ECommerceCrawlers/wiki)**
+
 ### 🙋0x01 爬虫简介
 
 **爬虫**
 
 爬虫是一种按照一定的规则，自动地抓取万维网信息的程序或者脚本。
+
+**[爬虫到底违法吗？](https://github.com/DropsDevopsOrg/ECommerceCrawlers/wiki/%E7%88%AC%E8%99%AB%E5%88%B0%E5%BA%95%E8%BF%9D%E6%B3%95%E5%90%97%3F)**
 
 **爬虫作用**
 - 市场分析：电商分析、商圈分析、一二级市场分析等

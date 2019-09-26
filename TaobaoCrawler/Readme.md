@@ -1,4 +1,16 @@
 
+# 淘宝网数据爬取
+
+## 淘宝爬虫基础
+
+* [webdriver 淘宝页面登录]()
+* [webdriver 微博页面登录]()
+* [pyppteer 淘宝页面登录]()
+* [获取浏览器数据]()
+* [获取接口数据]()
+
+# 实现代码实例
+
 ## 打开软件
 
 ![](https://raw.githubusercontent.com/Hatcat123/GraphicBed/master/Img/20190416182559.png)
