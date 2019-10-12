@@ -39,7 +39,7 @@ class QCWY(object):
         req = requests.get(url=url, headers=self.header)
         req.encoding = 'gbk'
         html = etree.HTML(req.text)
-        max_page = html.xpath('//*[@id="resultList"]/div[2]/div[5]/text()')[1][3:]
+        max_page = html.xpath('//*[@id="resultList"]/div[2]/div[5]/text()')[2][3:]
         for page in range(1, int(max_page) + 1):
             page_url = self.baseurl + '{},000000,0000,00,9,99,{},2,{}.html'.format(city_code, self.keyword, page)
             self.pagequeue.put(page_url)
