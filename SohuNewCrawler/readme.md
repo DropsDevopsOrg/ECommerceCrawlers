@@ -40,6 +40,9 @@ pip install -r requirements.txt
 ```
 python TK_News.py
 ```
+
+> 先确保数据库ok,然后点击采集，导出数据确保路径正确
+
 **更新功能**
 
 ![](https://raw.githubusercontent.com/Hatcat123/GraphicBed/master/Img/20190520213812.gif)
