@@ -31,7 +31,7 @@
 1 、 运行开启mongodb数据库，配置数据库密码 
 
 ```
-mongod.exe
+mongod.exe --dbpath 数据的路径
 
 ```
 
