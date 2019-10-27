@@ -3,13 +3,67 @@
 
 ## 淘宝爬虫基础
 
-* [webdriver 淘宝页面登录]()
-* [webdriver 微博页面登录]()
-* [pyppteer 淘宝页面登录]()
-* [获取浏览器数据]()
-* [获取接口数据]()
+* [webdriver 淘宝页面登录](待完善)
+* [webdriver 微博页面登录](待完善)
+* [pyppteer 淘宝页面登录](待完善)
+* [获取浏览器数据](待完善)
+* [获取接口数据](待完善)
 
 # 实现代码实例
+
+爬取淘宝的数据除了xsign的key的方式，头疼的一点就是被识别、出现滑动验证码。
+
+本开源程序原理使用代码操作webdriver，流量走到 mitmproxy进行过滤浏览器参数，这些参数会会让淘宝的js知道你使用的是webdriver,这样出现小二滑动也能轻松的过。
+
+![](https://raw.githubusercontent.com/Hatcat123/GraphicBed/master/Img/20191027124113.gif)
+
+
+## 使用方式
+
+- [x] python3.5
+- [x] requirements.txt
+- [x] webdriver.exe
+- [x] mongodb
+- [x] mitmproxy
+
+>windows运行
+
+1 、 运行开启mongodb数据库，配置数据库密码 
+
+```
+mongod.exe
+
+```
+
+2 、下载mitmproxy。
+
+ - 直接下载，百度搜索下载方法，去官方下载。
+ - 或pip下载：`pip install mitmproxy`。在python的包中site找到mitmproxy.exe、mitmdump.exe、mitmweb.exe即说明成功
+
+3、 安装`requirements.txt`
+
+>我的库比较杂，最好使用虚拟环境
+
+```
+pip install -r requirements.txt -i https://pypi.douban.com/simple
+```
+
+4、 使用`webdriver`在代码中使用的是火狐内核的无头浏览器。在滑动验证码的时候，与过滤浏览器参数的时候发现使用火狐的方式成功率更加的高
+
+5、 开启mitmproxy
+
+```
+mitmdump -p 8888 -s proxy.py (代理脚本路径)
+```
+6、 运行软件
+
+> 建议在虚拟环境下运行
+
+```
+python TK_crawler.py
+```
+之后就能看到这个界面了，简单说明此程序是用TK写的界面，tk比较麻烦，大概半年前写的比较菜，现在再看逻辑与代码结构糟糕透了，很多公共的部分我都没封装。但是里面的功能都是可以用的。
+>2019年10月27日周末测试
 
 ## 打开软件
 
@@ -90,3 +144,4 @@
 关闭浏览器 关闭软件
 
 ![](https://raw.githubusercontent.com/Hatcat123/GraphicBed/master/Img/20190416182442.png)
+
