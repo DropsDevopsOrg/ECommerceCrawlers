@@ -20,7 +20,7 @@
 
 - 码云仓库链接:[AJay13/ECommerceCrawlers](https://gitee.com/AJay13/ECommerceCrawlers)
 - Github仓库链接:[DropsDevopsOrg/ECommerceCrawlers](https://github.com/DropsDevopsOrg/ECommerceCrawlers)
-- 项目展示平台链接:[http://wechat.doonsec.com](http://47.100.199.103:8000)
+- 项目展示平台链接:[http://wechat.doonsec.com](http://wechat.doonsec.com)
 
 ## Income
 
