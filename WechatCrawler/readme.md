@@ -25,9 +25,9 @@
 * 数据索引语句高优化，服务响应速度快。
 * 微信公众号数据同步到github。
 
-## 临时地址
+## 展示地址
 
-展示地址：[http://wechat.doonsec.com](http://47.100.199.103:8000)
+展示地址：[http://wechat.doonsec.com](http://wechat.doonsec.com)
 
 ## 部署条件
 
