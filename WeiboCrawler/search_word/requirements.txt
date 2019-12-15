@@ -1,0 +1,16 @@
+certifi==2019.11.28
+chardet==3.0.4
+cssselect==1.1.0
+fake-useragent==0.1.11
+idna==2.8
+lxml==4.4.2
+numpy==1.17.4
+pandas==0.25.3
+PyMySQL==0.9.3
+pyquery==1.4.1
+python-dateutil==2.8.1
+pytz==2019.3
+requests==2.22.0
+six==1.13.0
+SQLAlchemy==1.3.11
+urllib3==1.25.7
