@@ -20,15 +20,13 @@ class Boss(object):
         self.keyword = keyword
         self.city = city
         self.path = path
-        self.base_url = 'https://www.zhipin.com/'
-        self.jobqueue = queue.Queue()
-        self.csv_header = ['职位名称', '职位链接', '公司名称', '工作地点', '薪资', '工作经验', '学历要求', '所属领域', '公司状态',
-                           '公司规模', '发布人', '职位信息', '公司介绍', '工商信息']
-        self.downloadqueue = queue.Queue()
+        self.base_url = 'https://www.zhipin.com/mobile/jobs.json'  #手机端接口没有验证
+        self.csv_header = ['职位名称', '职位链接', '公司名称', '工作地点', '薪资', '工作经验', '学历要求',]
 
     def _get_city_code(self):
         url = 'https://www.zhipin.com/wapi/zpCommon/data/city.json'
-        req = requests.get(url=url, headers=get_header()).json()
+        headers = get_header()
+        req = requests.get(url=url, headers=headers).json()
         if req['message'] == 'Success':
             city_code_dict = req.get('zpData').get('cityList')
             for i in city_code_dict:
@@ -38,95 +36,49 @@ class Boss(object):
             return '100010000'  # 全国
 
     def Spider(self):
-        for page in range(1, 11):
+        page = 1
+        city = self._get_city_code()
+        data = []
+        while 1:
             params = {
                 'query': self.keyword,
-                'page' : page
+                'page' : page,
+                'city': city
             }
-            req = requests.get(url=self.base_url + 'c' +self._get_city_code(), params=params, headers=get_header())
+            req = requests.get(url=self.base_url, params=params, headers=get_header())
             print(req.url)
-            html = etree.HTML(req.text)
-            if page == 1:
-                for i in range(1, 30):
-                    title = html.xpath('//*[@id="main"]/div/div[3]/ul/li[{}]/div/div[1]/h3/a/div[1]/text()'.format(i))[0]
-                    link = self.base_url.rstrip('/') + html.xpath('//*[@id="main"]/div/div[3]/ul/li[{}]/div/div[1]/h3/a/@href'.format(i))[0]
-                    name = html.xpath('//*[@id="main"]/div/div[3]/ul/li[{}]/div/div[2]/div/h3/a/text()'.format(i))[0]
-                    data1 = html.xpath('//*[@id="main"]/div/div[3]/ul/li[{}]/div/div[1]/p/text()'.format(i))
-                    area = data1[0]
-                    salery = html.xpath('//*[@id="main"]/div/div[3]/ul/li[{}]/div/div[1]/h3/a/span/text()'.format(i))[0]
-                    exp = data1[1]
-                    study = data1[2]
-                    belong = html.xpath('//*[@id="main"]/div/div[3]/ul/li[{}]/div/div[2]/div/p/text()[1]'.format(i))[0]
-                    status = html.xpath('//*[@id="main"]/div/div[3]/ul/li[{}]/div/div[2]/div/p/text()[2]'.format(i))[0]
-                    try: size = html.xpath('//*[@id="main"]/div/div[3]/ul/li[{}]/div/div[2]/div/p/text()[3]'.format(i))[0]
-                    except: size = '无'
-                    who = html.xpath('//*[@id="main"]/div/div[3]/ul/li[{}]/div/div[3]/h3/text()[1]'.format(i))[0]
-                    try:
-                        job = html.xpath('//*[@id="main"]/div/div[3]/ul/li[{}]/div/div[3]/h3/text()[2]'.format(i))[0]
-                    except:
-                        job = '无'
-                    Hr = '{}/{}'.format(who, job)
-                    req1 = requests.get(url=link, headers=get_header())
-                    req1.encoding = 'utf-8'
-                    html1 = etree.HTML(req1.text)
-                    detail = ''.join(html1.xpath('//*[@class="job-sec"][1]//*/text()')).strip()
-                    if detail.isspace():
-                        detail = ''.join(html1.xpath('//*[@class="job-sec"][1]/text()')).strip()
-                    print(detail)
-                    gongsi = ''.join(html1.xpath('//*[@class="job-sec company-info"]//*/text()')).strip()
-                    gongshang = ''.join(html1.xpath('//*[@class="job-sec"][3]//*/text()')).strip()
-                    if '点击查看地图' in gongshang:
-                        gongshang = ''.join(html1.xpath('//*[@class="job-sec"][2]//*/text()')).strip()
-                    data = {}
-                    data.update(职位名称=title, 公司名称=name, 职位链接=link, 工作地点=area, 薪资=salery, 工作经验=exp, 学历要求=study,
-                                所属领域=belong, 公司状态=status, 公司规模=size, 发布人=Hr, 职位信息=detail, 公司介绍=gongsi, 工商信息=gongshang)
-                    self.downloadqueue.put(data)
+            req.encoding = req.apparent_encoding
+            code = req.json().get('html')
+            if code:
+                html = etree.HTML(code)
+                title = html.xpath('//*[@class="title"]/h4/text()')
+                href = map(lambda x: 'https://www.zhipin.com'+x, html.xpath('//*[@class="item"]/a/@href'))
+                salary = html.xpath('//*[@class="salary"]/text()')
+                company = html.xpath('//*[@class="name"]/text()')
+                area = html.xpath('//*[@class="msg"]/em[1]/text()')
+                workingExp = html.xpath('//*[@class="msg"]/em[2]/text()')
+                eduLevel = html.xpath('//*[@class="msg"]/em[3]/text()')
+                for t,s,c,a,w,e,h in zip(title, salary, company, area, workingExp, eduLevel, href):
+                    job = {}
+                    job['职位名称'] = t
+                    job['职位链接'] = h
+                    job['公司名称'] = c
+                    job['工作地点'] = a
+                    job['薪资'] = s
+                    job['工作经验'] = w
+                    job['学历要求'] = e
+                    data.append(job)
+                page += 1
             else:
-                try:
-                    for i in range(1,31):
-                        title = html.xpath('//*[@id="main"]/div/div[2]/ul/li[{}]/div/div[1]/h3/a/div[1]/text()'.format(i))[0]
-                        name = html.xpath('//*[@id="main"]/div/div[2]/ul/li[{}]/div/div[2]/div/h3/a/text()'.format(i))[0]
-                        link = self.base_url.rstrip('/') + html.xpath('//*[@id="main"]/div/div[2]/ul/li[{}]/div/div[1]/h3/a/@href'.format(i))[0]
-                        data1 = html.xpath('//*[@id="main"]/div/div[2]/ul/li[{}]/div/div[1]/p/text()'.format(i))
-                        area = data1[0]
-                        salery = html.xpath('//*[@id="main"]/div/div[2]/ul/li[{}]/div/div[1]/h3/a/span/text()'.format(i))[0]
-                        exp = data1[1]
-                        study = data1[2]
-                        belong = html.xpath('//*[@id="main"]/div/div[2]/ul/li[{}]/div/div[2]/div/p/text()[1]'.format(i))[0]
-                        status = html.xpath('//*[@id="main"]/div/div[2]/ul/li[{}]/div/div[2]/div/p/text()[2]'.format(i))[0]
-                        try:
-                            size = \
-                            html.xpath('//*[@id="main"]/div/div[2]/ul/li[{}]/div/div[2]/div/p/text()[3]'.format(i))[0]
-                        except: size = '无'
-                        who = html.xpath('//*[@id="main"]/div/div[2]/ul/li[{}]/div/div[3]/h3/text()[1]'.format(i))[0]
-                        try:
-                            job = html.xpath('//*[@id="main"]/div/div[2]/ul/li[1]/div/div[3]/h3/text()[2]'.format(i))[0]
-                        except:
-                            job = '无'
-                        Hr = '{}/{}'.format(who, job)
-                        req1 = requests.get(url=link, headers=get_header())
-                        req1.encoding = 'utf-8'
-                        html1 = etree.HTML(req1.text)
-                        detail = ''.join(html1.xpath('//*[@class="job-sec"][1]//*/text()')).strip()
-                        gongsi = ''.join(html1.xpath('//*[@class="job-sec company-info"]//*/text()')).strip()
-                        gongshang = ''.join(html1.xpath('//*[@class="job-sec"][3]//*/text()')).strip()
-                        if '点击查看地图' in gongshang:
-                            gongshang = ''.join(html1.xpath('//*[@class="job-sec"][2]//*/text()')).strip()
-                        print(detail)
-                        data = {}
-                        data.update(职位名称=title, 公司名称=name, 职位链接=link, 工作地点=area, 薪资=salery, 工作经验=exp, 学历要求=study,
-                                    所属领域=belong, 公司状态=status, 公司规模=size, 发布人=Hr, 职位信息=detail, 公司介绍=gongsi,
-                                    工商信息=gongshang)
-                        self.downloadqueue.put(data)
-                except Exception as e:
-                    continue
+                break
+        return data
+
+
     def run(self):
-        data = []
         if os.path.exists(self.path):
             self.path = os.path.join(self.path, 'save-data')
-            self.Spider()
-            while not self.downloadqueue.empty():
-                data.append(self.downloadqueue.get())
+            data = self.Spider()
+            print(data)
             with open(os.path.join(self.path, 'Boss直聘_关键词_{}_城市_{}.csv'.format(self.keyword, self.city)), 'w',
                       newline='', encoding='gb18030') as f:
                 f_csv = csv.DictWriter(f, self.csv_header)
@@ -134,4 +86,4 @@ class Boss(object):
                 f_csv.writerows(data)
 
 if __name__ == '__main__':
-    a = Boss(keyword='java', city='北京').run()
+    a = Boss(keyword='java', city='南京').run()
