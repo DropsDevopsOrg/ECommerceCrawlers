@@ -16,6 +16,12 @@
 
 >在之前上传的大文件贯穿了3/4的commits，发现每次clone达到100M，这与我们最初的想法违背，我们不能很有效的删除每一个文件（太懒），将重新进行初始化仓库的commit。并在今后不上传爬虫数据，优化仓库结构。
 
+## About
+
+- 码云仓库链接:[AJay13/ECommerceCrawlers](https://gitee.com/AJay13/ECommerceCrawlers)
+- Github仓库链接:[DropsDevopsOrg/ECommerceCrawlers](https://github.com/DropsDevopsOrg/ECommerceCrawlers)
+- 项目展示平台链接:[http://wechat.doonsec.com](http://wechat.doonsec.com)
+
 ## Income
 
 几乎80%的项目都是帮客户写的爬虫，在添加到仓库之前已经经过客户同意可开源原则。
@@ -219,3 +225,4 @@ electron
 - [lb2281075105/Python-Spider](https://github.com/lb2281075105/Python-Spider)
 
 - [SpiderCrackDemo](https://github.com/wkunzhi/SpiderCrackDemo)
+

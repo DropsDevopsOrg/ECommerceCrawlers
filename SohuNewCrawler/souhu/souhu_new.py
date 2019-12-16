@@ -93,7 +93,6 @@ class SouhuSpider():
         for q in [self.url_queue]:
             q.join()
         print('结束')
-
 if __name__ == '__main__':
     ss = SouhuSpider()
     while True:

@@ -1,12 +1,16 @@
 
-关于微信的公众号的爬取，等忙完这一阵子，将会推出
+关于微信的公众号的爬取，部分内容功能将进行二次开发，推出商业版，自媒体的朋友可以先联系使用
 
-部分内容功能将进行二次开发，推出商业版，自媒体的朋友可以先联系使用
+相关服务-[淘宝链接](https://item.taobao.com/item.htm?spm=a230r.1.14.28.67b75b3bw7LUwj&id=607020657770&ns=1&abbucket=7#detail)
 
 ![](https://raw.githubusercontent.com/Hatcat123/GraphicBed/master/Img/20190515130702.png)
 
 
-关于公众号的爬取：常规的分为三种方式。1、爬取搜狗微信接口。2、通过代理拦截到微信的请求数据与响应数据。3、hook微信的对象被动爬取。
+关于公众号的爬取：[常规的分为三种方式](https://github.com/DropsDevopsOrg/ECommerceCrawlers/wiki/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E7%88%AC%E5%8F%96%E7%A0%94%E7%A9%B6)。
+
+ - 1、爬取搜狗微信接口。
+ - 2、通过代理拦截到微信的请求数据与响应数据。
+ - 3、hook微信的对象被动爬取。
 
 
 ## 公众号聚合平台
@@ -17,18 +21,19 @@
 公众号聚合平台采用layui前端模板与bootstrap模板结合开发，服务应用采用Python Flask语言开发。是一款为了获取微信安全方面的公众号聚合平台。为客户提供优质的聚合服务。
 
 * 解决了常规公众号难以采集的技术难题。
+* 能够无人监听模式自动化采集。
 * 使用友好的界面展示。在三端设备做了自适应展示。
 * 提供api数据接口方便调用。使用者可以进行二次开发。
 * 数据索引语句高优化，服务响应速度快。
 * 微信公众号数据同步到github。
 
-## 临时地址
+## 展示地址
 
-展示地址：[http://wechat.doonsec.com](http://47.100.199.103:8000)
+展示地址：[http://wechat.doonsec.com](http://wechat.doonsec.com)
 
 ## 部署条件
 
-windows服务器与linux服务器最低配即可。支持docker镜像部署。
+windows服务器（或加linux服务器）最低配即可。支持docker镜像部署。
 
 ## 平台有哪些内容？
 

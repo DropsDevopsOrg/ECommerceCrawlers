@@ -605,7 +605,7 @@ def test_time(over_time):
     else:return False
 
 if __name__ == '__main__':
-    if test_time('2019-4-17 16:0:0'):
+    if test_time('2020-4-17 16:0:0'):
         window = tk.Tk()  # 父容器
         window.title("淘宝同款信息采集器定制版ByAjay13")  # 父容器标题
         MainPage(window)

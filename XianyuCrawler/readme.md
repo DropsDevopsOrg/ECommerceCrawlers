@@ -8,7 +8,7 @@
 
 经过查找，找到能搜索关键字的链接`https://s.2.taobao.com/list/?q=关键字&page=2&search_type=item&_input_charset=utf8`
 
-经过多次爬取发现闲鱼并没有太多的反爬虫验证，索性连ua都不用给。【2019-08-07[接口失效](https://github.com/DropsDevopsOrg/ECommerceCrawlers/issues/9#issuecomment-518585101)】
+经过多次爬取发现闲鱼并没有太多的反爬虫验证，索性连ua都不用给。【2019-08-07[在之前爬取频率过多接口失效](https://github.com/DropsDevopsOrg/ECommerceCrawlers/issues/9#issuecomment-518585101)】目前只能做异步方式参考
 
 闲鱼只能爬取某一个关键字商品前100页面。想要获取所有数据的思路：100页的数据量100x20=2k条左右，全部商品有200k，爬取商品总数量，按照地区分级爬取，如果分级后仍然大于2k，继续分地级。
 
@@ -41,9 +41,10 @@ pyquery可以根据`class`，`id`，`div`的属性进行解析。
 
 ![](https://raw.githubusercontent.com/Hatcat123/GraphicBed/master/Img/20190426111615.png)
 
-[具体项目](https://github.com/Hatcat123/XianyuSdd)
+[具体项目](https://github.com/Hatcat123/XianyuSdd)在另外的仓库，文件太大没有搬运
 
-更新使用方式、7-25日 项目仍然能继续运行
+~~更新使用方式、7-25日 项目仍然能继续运行~~
+接口失效后，应该不能爬取，只能作为练习思路学习
 
 ### 0x05 结果对比
 
@@ -54,3 +55,14 @@ pyquery可以根据`class`，`id`，`div`的属性进行解析。
 **异步爬取时间**
 
 忘了截图*100次请求大概用了6-8s
+
+### 0x06 运行环境
+
+- [x] python3.5
+- [x] requirements.txt
+
+```
+python xianyu.py
+
+python asyxianyu.py
+```
