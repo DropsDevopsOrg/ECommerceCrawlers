@@ -21,6 +21,7 @@
 - [x] [0x11 蜘蛛泛目录](#0x11zzc) 
 - [x] [0x12 今日头条爬取](#0x12toutiao)
 - [x] [0x13 豆瓣影评](#0x13douban_yingping)
+- [x] [0x14 协程评论爬取](#0x14ctrip_crawler)
 ## 有趣的爬虫介绍
 
 ### [0x01baidutieba](0x01baidutieba)
@@ -140,3 +141,11 @@
 - wordcloud词云
 - Snownlp情感分析
 - selenium模拟浏览器
+
+### [0x14 协程评论爬取](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler/0x14ctrip_crawler)
+关于协程评论爬取的[分析与描述](https://github.com/DropsDevopsOrg/ECommerceCrawlers/blob/master/OthertCrawler/0x14ctrip_crawler/readme.md)
+
+**练习知识点**
+- ajax
+- mysql数据库操作
+- sqlalchemy操作
