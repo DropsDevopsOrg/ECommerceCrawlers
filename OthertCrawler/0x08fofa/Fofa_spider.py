@@ -106,7 +106,7 @@ class Fofa():
 #             self.save_text(result)
 
 
-    def save_to_txt(self,result)
+    def save_to_txt(self,result):
         # 应安全人员要求保存txt形式
         with open ('result.txt','a+')as f:
             f.write(result+'\n')
