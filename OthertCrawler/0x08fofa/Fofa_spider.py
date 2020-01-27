@@ -46,7 +46,7 @@ class Fofa():
 
     def login_fofa(self):
         try:
-            self.browser.get('https://i.nosec.org/login?service=http%3A%2F%2Ffofa.so%2Fusers%2Fservice')
+            self.browser.get('https://i.nosec.org/login?service=https%3A%2F%2Ffofa.so%2Fusers%2Fservice')
             input_user = self.wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, '#username')))
             input_pass = self.wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, '#password')))
             submit = self.wait.until(EC.element_to_be_clickable(
