@@ -50,22 +50,23 @@ def spider():
                 url = self.poet_queue.get()
                 req = requests.get(url, headers=get_header())
                 if req.status_code == 200:
+
                     req.encoding = 'utf-8'
                     html = etree.HTML(req.text)
-                    name = html.xpath('/html/body/div[4]/div[2]/div[2]/div[1]/h2/a/text()')[0]
-                    dynasty = html.xpath('/html/body/div[4]/div[2]/div[2]/div[1]/div[2]/text()')
+                    name = html.xpath('/html/body/div[4]/div[2]/div[1]/div[2]/div[1]/h4/a/text()')[0]
+                    dynasty = html.xpath('/html/body/div[4]/div[2]/div[1]/div[3]/div[1]/div[2]/a/text()')
                     if len(dynasty) == 0:
                         dynasty = '未知'
                     else:
                         dynasty = dynasty[0]
-                    introduction = html.xpath('/html/body/div[4]/div[2]/div[2]/div[1]/div[4]')[0].xpath(
+                    introduction = html.xpath('/html/body/div[4]/div[2]/div[1]/div[2]/div[1]/div[1]')[0].xpath(
                         'string(.)').strip()
                     with app.app_context():
                         poet = Poet(name=name, dynasty=dynasty, introduction=introduction)
                         db.session.add(poet)
                         db.session.commit()
                         id = poet.id
-                    poem_num = html.xpath('/html/body/div[4]/div[2]/div[2]/div[1]/div[3]/text()')[0][:-1]
+                    poem_num = html.xpath('/html/body/div[4]/div[2]/div[1]/div[3]/div[2]/div[2]/a/text()')[0][:-1]
                     poet_url_list = []
                     for i in range(1, int(int(poem_num) / 40) + 2):
                         poet_id = re.sub("\D", "", url)
@@ -83,14 +84,14 @@ def spider():
                         if req2.status_code == 200:
                             req2.encoding = 'utf-8'
                             poet_html = etree.HTML(req2.text)
-                            title = poet_html.xpath('//*[@class="shici-title"]/text()')[0]
-                            content = '\n'.join(poet_html.xpath('//*[@class="shici-content"]/text()')).strip()
+                            title = poet_html.xpath('//*[@class="card"]/h1/text()')[0]
+                            content = '\n'.join(poet_html.xpath('//*[@class="item_content"]/text()')).strip()
                             if not content:
                                 content = '\n'.join(poet_html.xpath('//*[@class="para"]/text()')).strip()
-                            if len(poet_html.xpath('//*[@class="shangxi-container"]')) == 0:
+                            if len(poet_html.xpath('//*[@class="shangxi_content"]')) == 0:
                                 analysis = ''
                             else:
-                                analysis = poet_html.xpath('//*[@class="shangxi-container"]')[0].xpath(
+                                analysis = poet_html.xpath('//*[@class="shangxi_content"]')[0].xpath(
                                     'string(.)').strip()
                             with app.app_context():
                                 poem = Poem(title=title, content=content, analysis=analysis, author=id)
