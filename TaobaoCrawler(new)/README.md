@@ -19,7 +19,7 @@
 ## 使用方法
 
 1. 在 `config.py` 文件中根据需要配置
-2. 运行 `python3 mian.py`
+2. 运行 `python3 main.py`
 
 ## 思路
 
