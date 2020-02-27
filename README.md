@@ -9,9 +9,9 @@
 对于精通爬虫的pyer，这将是一个很好的例子减少重复收集轮子的过程。项目经常更新维护，确保即下即用，减少爬取的时间。
 
 对于小白通过✍️实战项目，了解爬虫的从无到有。爬虫知识构建可以移步[项目wiki](https://github.com/DropsDevopsOrg/ECommerceCrawlers/wiki/%E7%88%AC%E8%99%AB%E5%88%B0%E5%BA%95%E8%BF%9D%E6%B3%95%E5%90%97%3F)。爬虫可能是一件非常复杂、技术门槛很高的事情，但掌握正确的方法，在短时间内做到能够爬取主流网站的数据，其实非常容易实现，但建议从一开始就要有一个具体的目标。
- 
+
 在目标的驱动下，你的学习才会更加精准和高效。那些所有你认为必须的前置知识，都是可以在完成目标的过程中学到的😁😁😁。
- 
+
 欢迎大家对本项目的不足加以指正，⭕️Issues或者🔔Pr
 
 >在之前上传的大文件贯穿了3/4的commits，发现每次clone达到100M，这与我们最初的想法违背，我们不能很有效的删除每一个文件（太懒），将重新进行初始化仓库的commit。并在今后不上传爬虫数据，优化仓库结构。
@@ -31,23 +31,25 @@
 <summary>收益表</summary>
  
 
-|项目|收益|备注|
-|:--|--:|:-:|
-|DianpingCrawler|200|
-|TaobaoCrawler|2000|
-|SohuNewCrawler|2500|
-|WechatCrawler|未定|暂无具体收益|
-|某省药监局|80|
-|fofa|700|
-|baidu|1000|
-|蜘蛛泛目录|1000|
-|更多……|……|另部分程序未得到客户开源认可|
+| 项目            | 收益 |             备注             |
+| :-------------- | ---: | :--------------------------: |
+| DianpingCrawler |  200 |
+| TaobaoCrawler   | 2000 |
+| SohuNewCrawler  | 2500 |
+| WechatCrawler   | 未定 |         暂无具体收益         |
+| 某省药监局      |   80 |
+| fofa            |  700 |
+| baidu           | 1000 |
+| 蜘蛛泛目录      | 1000 |
+| 更多……          |   …… | 另部分程序未得到客户开源认可 |
 
 </details>
 
 ## CrawlerDemo
+
 - [x] [DianpingCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/DianpingCrawler)：大众点评爬取
 - [x] [East_money](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/East_money)：scrapy爬取东方财富网
+- [x] [📛TaobaoCrawler(new)](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/TaobaoCrawler(new))：阿里系全自主平台(淘宝、天猫、咸鱼、菜鸟裹裹等)信息爬取 免cookie, 理论上不被反爬虫机制(只提供淘宝，其他思路一样，加密方式一样)，
 - [x] [📛TaobaoCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/TaobaoCrawler)：淘宝商品爬取
 - [x] [📛ZhaopinCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/ZhaopinCrawler)：各大招聘网站爬取
 - [x] [ShicimingjuCrawleAndDisplayr](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/ShicimingjuCrawleAndDisplay)：诗词名家句网站爬取展示
@@ -73,11 +75,12 @@
   - [x] [0x13 豆瓣影评分析](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler/0x13douban_yingping)
   - [x] [0x14 协程评论爬取](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler/0x14ctrip_crawler)
   - [x] [0x15 小米应用商店爬取](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler/0x15xiaomiappshop)
+
 ## Contribution👏
 
-|<a  href="https://github.com/Joynice"><img class="avatar" src="https://avatars0.githubusercontent.com/u/22851022?s=96&amp;v=4" width="48" height="48" alt="@Joynice"></a>|<a href="https://github.com/liangweiyang"><img class="avatar" src="https://avatars0.githubusercontent.com/u/37971213?s=96&amp;v=4" width="48" height="48" alt="@liangweiyang"></a>|<a href="https://github.com/Hatcat123"><img class="avatar" src="https://avatars0.githubusercontent.com/u/28727970?s=96&amp;v=4" width="48" height="48" alt="@Hatcat123"></a>|<a href="https://github.com/jihu9"><img class="avatar" src="https://avatars0.githubusercontent.com/u/17663102?s=96&amp;v=4" width="48" height="48" alt="@jihu9"></a>|<a href="https://github.com/ctycode"><img class="avatar" src="https://avatars3.githubusercontent.com/u/56985178?s=96&amp;v=4" width="48" height="48" alt="@ctycode"></a>|
-|:-:|:-:|:-:|:-:|:-:|
-|[Joynice](https://github.com/Joynice)|[liangweiyang](https://github.com/liangweiyang)|[Hatcat123](https://github.com/Hatcat123)|[jihu9](https://github.com/jihu9)|[ctycode](https://github.com/ctycode)|
+|<a  href="https://gitee.com/joseph31"><img class="avatar" src="https://avatars3.githubusercontent.com/u/47005658?s=460&v=4" width="48" height="48" alt="@joseph31"></a>|<a  href="https://github.com/Joynice"><img class="avatar" src="https://avatars0.githubusercontent.com/u/22851022?s=96&amp;v=4" width="48" height="48" alt="@Joynice"></a>|<a href="https://github.com/liangweiyang"><img class="avatar" src="https://avatars0.githubusercontent.com/u/37971213?s=96&amp;v=4" width="48" height="48" alt="@liangweiyang"></a>|<a href="https://github.com/Hatcat123"><img class="avatar" src="https://avatars0.githubusercontent.com/u/28727970?s=96&amp;v=4" width="48" height="48" alt="@Hatcat123"></a>|<a href="https://github.com/jihu9"><img class="avatar" src="https://avatars0.githubusercontent.com/u/17663102?s=96&amp;v=4" width="48" height="48" alt="@jihu9"></a>|<a href="https://github.com/ctycode"><img class="avatar" src="https://avatars3.githubusercontent.com/u/56985178?s=96&amp;v=4" width="48" height="48" alt="@ctycode"></a>|
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|[joseph31](https://gitee.com/joseph31)|[Joynice](https://github.com/Joynice)|[liangweiyang](https://github.com/liangweiyang)|[Hatcat123](https://github.com/Hatcat123)|[jihu9](https://github.com/jihu9)|[ctycode](https://github.com/ctycode)|
 
 > wait for you
 
@@ -108,7 +111,7 @@
   - [x] txt文本
   - [x] csv
   - [x] excel
-  - [ ] mysql
+  - [x] mysql
   - [x] redis
   - [x] mongodb
 - 反爬验证
@@ -123,7 +126,7 @@
   - [x] 多进程
   - [x] 异步协成
   - [x] 生产者消费者多线程
-  - [ ] 分布式爬虫系统 
+  - [x] 分布式爬虫系统 
 
 > *链接标识官方文档或推荐例子*
 
