@@ -165,7 +165,7 @@ class Weibo():
             self.canshu_queue.task_done()
 
     def run(self):
-        weibotask = self.session.query(WeiboTask).filter(WeiboTask.flag == '5').order_by(WeiboTask.time.desc()).all()
+        weibotask = self.session.query(WeiboTask).filter(WeiboTask.flag == '0').order_by(WeiboTask.time.desc()).all()
         for i in weibotask:
             task_item={}
 
