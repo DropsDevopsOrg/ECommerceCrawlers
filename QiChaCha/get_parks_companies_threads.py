@@ -167,7 +167,7 @@ class QiChaCha:
         if not os.path.exists(self.file_name):
             header = ['province', 'city', 'county', 'park', 'area', 'numcop', 'company',
                       'person', 'capital', 'settime', 'email', 'phone', 'address', 'state', 'url']
-            with open(file_name, 'a', newline='', encoding='utf-8') as f:
+            with open(self.file_name, 'a', newline='', encoding='utf-8') as f:
                 writer = csv.writer(f)
                 writer.writerow(header)
 
