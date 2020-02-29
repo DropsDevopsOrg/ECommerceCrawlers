@@ -52,25 +52,20 @@ class QiChaCha:
             id, page_no)
         while True:
             try:
-                with requests.get(url, headers=self.headers, proxies=self.proxies) as response:
+                # with requests.get(url, headers=self.headers, proxies=self.proxies) as response:
+                with requests.get(url, headers=self.headers) as response:
                     # response = requests.get(url, headers=self.headers)
                     html = response.text
                     parseHtml = etree.HTML(html)
 
                     return parseHtml
             except Exception as e:
-                log('代理请求故障，重复任务！')
+                # log('代理请求故障，重复任务！')
+                log('连接故障，重复任务！')
                 pass
 
     def get_companies_all(self, name_thread, id, province, city, county, park, area, numcop):
-        parseHtml = self.get_companies(id, 1)
-
-        # ['\n                                    71\n                                ']
-        rNum = parseHtml.xpath(
-            '//div[@class="e_zone-company"]/div[1]/span/span/text()')
-        _num = int(rNum[0].replace('\n', '').strip())
-
-        num_page = _num // 10 + 1
+        num_page = numcop // 10 + 1
 
         for i in range(1, num_page+1):
             # for i in range(1, 2):
