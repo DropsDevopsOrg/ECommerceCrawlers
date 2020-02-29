@@ -3,7 +3,7 @@
 ## cookie策略
 
 1. taobao 买入 企查查 一天会员, 并登陆查询, 获得cookie 中 
-2. 经验证, QCCSESSID=i1bie6vpgudru9g56pkf8a**** 即可
+2. 经验证, QCCSESSID=i1bie6vpgudru9g56pkf8a5141 即可
 
 - 注意
   
