@@ -6,7 +6,8 @@ import csv
 # from fake_useragent import UserAgent
 import pandas as pd
 import threading
-
+import time
+import random
 
 def log(txt):
     print(txt)
@@ -140,8 +141,11 @@ class QiChaCha:
 
     def thread_task(self):
         name_thread = threading.current_thread().name
-        try:
-            while True:
+        n = 3 # # 三次请求 self.ListTash 无返回, 则认为所有数据爬取完毕
+        while True:
+            if n == 0:
+                break
+            try:
                 i = self.ListTask.pop(0)
                 province = self.csv_data.loc[i, 'province']
                 city = self.csv_data.loc[i, 'city']
@@ -154,8 +158,10 @@ class QiChaCha:
                                        city, county, park, area, numcop)
                 log('\n\n{} 完成爬取 ID: {}, 整体进度: {} / {}\n\n=============================\n'.format(
                     name_thread, id, i+1, self.length))
-        except Exception as e:
-            pass
+                n = 3
+            except Exception as e:
+                n -= 1
+                time.sleep(random.randint(3,10))
 
     def work(self):
         # 判断\新建文件夹
@@ -193,5 +199,3 @@ class QiChaCha:
 
 if __name__ == "__main__":
     QiChaCha(cookie, proxies, companies_name)
-
-print()
