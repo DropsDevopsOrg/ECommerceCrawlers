@@ -2,8 +2,15 @@
 
 ## cookie策略
 
-1. taobao 买入 企查查 一天会员, 并登陆查询, 获得cookie 中 
-2. 经验证, QCCSESSID=i1bie6vpgudru9g56pkf8a**** 即可
+- 企查查
+
+	1. taobao 几块钱买入 企查查 一天\一个月 会员, 并登陆查询, 获得cookie 中 `QCCSESSID` 和 `acw_tc`
+
+- 高德
+
+	1. 高德对 IP地址 无反爬机制
+	2. 高德POI信息查询,若数据量小于3万,可通过认证个人开发者,获取免费api接口,实现每天 3万次 / 50-200 并发量
+	3. 若数据量远大于3万,可通过页面爬虫,若 CPU\内存\网速 够用,可开 50-100 条线程并发(python内核是伪线程,可以自己测试并发效率, 并非数越多越好)
 
 - 注意
   
@@ -11,13 +18,25 @@
   2. 在研究免 cookie 策略，不用 vip cookie，也能得到部分数据，但很多链接等不能得到
   3. 以后有时间时再完善
   4. 短时间内测试，vip cookie 的策略有效，小伙伴测试过程中发现有问题，请及时与我联系，谢谢
-  5. `csv示例`中 csv 文件为 `utf-8` 格式，win平台乱码可在浏览器打开，或用 EditPlus 改为 `ascii` 格式
 
 ## 爬虫思路
 
 1. 先获取园区信息(省份\城市-区\占地面积\企业数\详情链接),存为 csv
 2. 逐个访问详情链接, 获得所有企业数
-3. 将所有数据合并在一张表里
+3. 将所有数据合并在一张表里(因爬虫过程中被反爬等,中断继续,导致部分数据重复,进行 csv 去重\排序)
+4. 高德地图POI信息爬取(园区、企业)
+5. Tableau & echarts、django、mysql 等在线可视化
+
+## 文件说明
+1. `config.py`	配置文件(企查查需要代理,高德不需要)
+2. `get_parks.py`	获取园区信息
+3. `get_parks_companies.py`	获取企业信息(单线程,有bug,未修复)
+4. `get_parks_companies_threads.py`	获取企业信息(多线程,修复bug)
+5. `deal_error.py`	处理企查查爬虫中的错误(该部分重新爬取\其他策略等)
+6. `deal_result.py` 处理企业信息csv文件: 去重\排序
+7. `get_addr_longitude_latitude.py`	高德POI获取(地址\经度\维度),作为中间函数被其他文件导入
+8. `get_parks_addr_long_lati.py` 园区高德POI获取(地址\经度\维度)
+9. `get_companies_addr_long_lati.py` 企业高德POI获取(地址[已有]\经度\维度)
 
 ## 关于作者
 
