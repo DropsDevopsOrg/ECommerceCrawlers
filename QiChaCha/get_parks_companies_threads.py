@@ -60,14 +60,15 @@ class QiChaCha:
 
                     return parseHtml
             except Exception as e:
-                log('代理请求故障，重复任务！')
+                # log('代理请求故障，重复任务！')
+                log('连接故障，重复任务！')
                 pass
 
     def get_companies_all(self, name_thread, id, province, city, county, park, area, numcop):
         num_page = numcop // 10 + 1
 
-
         for i in range(1, num_page+1):
+            num_writer = 0  # 计算是否有信息写入（反扒机制）
             # for i in range(1, 2):
             parseHtml = self.get_companies(id, i)
             # '/firm_2468290f38f4601299b29acdf6eccce9.html'
@@ -114,14 +115,20 @@ class QiChaCha:
                     state = rState[num]
                     L = [province, city, county, park, area, numcop, company,
                          person, capital, settime, email, phone, address, state, url]
+                    # print(L)
                     with open(self.file_name, 'a', newline='', encoding='utf-8') as f:
                         writer = csv.writer(f)
                         writer.writerow(L)
+                        num_writer += 1
                 except Exception as e:
                     self.err_log(id, i)
                     log(
                         '{} 报错 ID: {} , 页码: {} / {}'.format(name_thread, id, i, num_page))
-            log('{} 完成爬取 ID: {} , 页码: {} / {}'.format(name_thread, id, i, num_page))
+            if num_writer == 0:
+                log('{} 无信息写入 ID: {} , 页码: {} / {} 请检查反扒机制'.format(name_thread, id, i, num_page))
+                self.err_log(id, i)
+            else:
+                log('{} 完成爬取 ID: {} , 页码: {} / {}'.format(name_thread, id, i, num_page))
 
     def err_log(self, id, page):
         err_file = self.path + 'error.csv'
@@ -176,7 +183,7 @@ class QiChaCha:
             self.ListTask.append(i)
 
         threads = []
-        for i in range(3):
+        for i in range(200):
             thread = threading.Thread(target=self.thread_task, args=())
             threads.append(thread)
 
@@ -194,5 +201,3 @@ class QiChaCha:
 
 if __name__ == "__main__":
     QiChaCha(cookie, proxies, companies_name)
-
-print()
