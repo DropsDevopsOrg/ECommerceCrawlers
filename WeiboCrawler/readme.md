@@ -4,6 +4,14 @@
 
 个人微博内容获取的轮子，实测好用[https://github.com/dataabc/weiboSpider](https://github.com/dataabc/weiboSpider)
 
+本项目其他文件夹包含：
+
+- 微博关键字采集：search_word（免cookie）
+- 微博评论内容采集：comment
+- 微博转发内容采集：zhuanfa
+- 微博mid转化url：tools
+
+
 # 微博数据爬取(免cookie)
 
 > 有个老吊让**300**块爬微博全网美妆博主的微博中带有淘宝链接的商品，（/-\）于是就有了这篇**价值300的**全网微博的爬虫。后期需求改的一塌糊涂，可恨的是要分析这些淘宝链接到底卖了啥，意思**顺带**爬下淘宝，套他猴子！
