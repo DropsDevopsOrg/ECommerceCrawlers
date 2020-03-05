@@ -37,6 +37,13 @@
 7. `get_addr_longitude_latitude.py`	高德POI获取(地址\经度\维度),作为中间函数被其他文件导入
 8. `get_parks_addr_long_lati.py` 园区高德POI获取(地址\经度\维度)
 9. `get_companies_addr_long_lati.py` 企业高德POI获取(地址[已有]\经度\维度)
+10. `echarts_parks.py`	基于园区的数据进行可视化, 调用 `pyecharts` 模块
+11. `jn_parks.json`	程序运行中生成的中间文件, 标记各园区的经纬度, 被 `pyecharts` 模块调用
+12. `map.html` 可以直接在 chrome 或 firefox 浏览器中打开看效果
+
+	- 注意:
+		1. 数据可视化简单的可用 `Tableau` ,更好的是用 `Echarts`, python 对应的模块为 `pyecharts`
+		2. 新版的 `pyecharts`  针对 `pandas` 有bug, 我在文件 `echarts_parks.py` 中对其修正
 
 ## 关于作者
 
