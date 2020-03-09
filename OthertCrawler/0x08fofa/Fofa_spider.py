@@ -20,13 +20,17 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 
 class Fofa():
-    def __init__(self):
+    def __init__(self,config):
+        self.WRITE_MODE = config[
+            'write_mode']  # 结果信息保存类型，为list形式，可包含txt、csv、json、mongo和mysql五种类型
+
+        self.FOFA_USERNAME =config['fofa_username'] # fofa账号用户名
+        self.FOFA_PASSWORD = config['fofa_password'] # fofa账号密码
+        self.PAGE = config['page']
+
         self.MONGO_URL = 'localhost'
         self.MONGO_DB = 'fofa'
         self.MONGO_TABLE = 'message'
-        self.FOFA_USERNAME = 'xxxxx'
-        self.FOFA_PASSWORD = 'xxxx'
-        self.PAGE = 1000
 
         self._init_db()
         self._init_browser()
@@ -135,7 +139,30 @@ class Fofa():
         self.browser.quit()
 
 
+
+import os
+import sys
+import json
+
+
+def main():
+    try:
+        config_path = os.path.split(
+            os.path.realpath(__file__))[0] + os.sep + 'config.json'
+        if not os.path.isfile(config_path):
+            sys.exit(u'当前路径：%s 不存在配置文件config.json' %
+                     (os.path.split(os.path.realpath(__file__))[0] + os.sep))
+        with open(config_path) as f:
+            try:
+                config = json.loads(f.read())
+            except ValueError:
+                sys.exit(u'config.json 格式不正确，请参考 ')
+        fofa = Fofa(config)
+        fofa.start()  # 爬取fofa信息
+    except Exception as e:
+        print('Error: ', e)
+
+
+
 if __name__ == '__main__':
-    fa = Fofa()
-    q = '"博彩" && country=CN'
-    fa.main(q)
+    main()

@@ -1,0 +1,19 @@
+{
+	"query": ["redis"],
+    "fofa_username": "xxxxx",
+    "fofa_password": "xxxxx",
+    "page": 100,
+    "write_mode": ["csv","excle","mysql","txt","mongodb"],
+    "mysql_config": {
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "root",
+        "password": "123456",
+        "charset": "utf8mb4"
+    },
+    "mongodb_config":{
+        "mongo_url":"127.0.0.1",
+        "mongo_db":"fofa",
+        "mongo_table":"message"
+    }
+}
