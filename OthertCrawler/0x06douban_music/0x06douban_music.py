@@ -3,9 +3,10 @@ import re
 import csv
 from bs4 import BeautifulSoup
 
+headers = {'User-Agent':'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'}
 url = "https://music.douban.com/chart"
 
-response = requests.get(url)
+response = requests.get(url, headers=headers)
 html = response.text
 soup = BeautifulSoup(html, 'lxml')
 source = str(soup.find_all(attrs={"class": "col5"}))
