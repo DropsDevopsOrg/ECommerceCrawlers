@@ -174,7 +174,7 @@
 
 **xpath**
 
-**yquery**
+**pyquery**
 
 **css**
 
