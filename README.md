@@ -50,12 +50,12 @@
 - [x] [📛TaobaoCrawler(new)](<https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/TaobaoCrawler(new)>)：阿里系全自主平台(淘宝、天猫、咸鱼、菜鸟裹裹、飞猪等)信息爬取 免 cookie, 理论上不被反爬虫机制(只提供淘宝，其他思路一样，加密方式一样)，
 - [x] [📛SIPO 专利审查](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/SIPO专利审查)：SIPO 专利审查 自动化客户端
 - [x] [📛QiChaCha](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/QiChaCha)：企查查 全国工业园区及企业信息
-- [x] [📛TaobaoCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/TaobaoCrawler)：淘宝商品爬取
+- [x] [TaobaoCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/TaobaoCrawler)：淘宝商品爬取
 - [x] [📛ZhaopinCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/ZhaopinCrawler)：各大招聘网站爬取
 - [x] [ShicimingjuCrawleAndDisplayr](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/ShicimingjuCrawleAndDisplay)：诗词名家句网站爬取展示
-- [x] [📛XianyuCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/XianyuCrawler)：闲鱼商品爬取
+- [x] [XianyuCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/XianyuCrawler)：闲鱼商品爬取
 - [x] [SohuNewCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/SohuNewCrawler)：新闻网爬取
-- [x] [📛WechatCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/WechatCrawler)：微信公众号爬取
+- [x] [WechatCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/WechatCrawler)：微信公众号爬取
 - [x] [cnblog](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/cnblog)：scrapy 博客园爬取
 - [x] [WeiboCrawler](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/WeiboCrawler)：微博数据爬取免 cookie
 - [x] [OtherCrawlers](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler)：一些有趣的爬虫例子
