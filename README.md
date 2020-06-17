@@ -75,8 +75,10 @@
   - [x] [0x13 豆瓣影评分析](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler/0x13douban_yingping)
   - [x] [0x14 协程评论爬取](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler/0x14ctrip_crawler)
   - [x] [0x15 小米应用商店爬取](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler/0x15xiaomiappshop)
-  - [x] [0x16 安居客信息采集](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler/0x16anjuke)
-
+  - [x] [0x16 酷安app信息采集](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler/0x16kuanappshop)
+  - [ ] [0x17 知乎信息采集](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler/0x17zhihu)
+  - [x] [0x18 必应图片采集](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler/0x18bing_img)
+  - [x] [0x19 安居客信息采集](https://github.com/DropsDevopsOrg/ECommerceCrawlers/tree/master/OthertCrawler/0x19anjuke)
 ## Contribution👏
 
 | <a  href="https://gitee.com/joseph31"><img class="avatar" src="https://avatars3.githubusercontent.com/u/47005658?s=460&v=4" width="48" height="48" alt="@joseph31"></a> | <a  href="https://github.com/Joynice"><img class="avatar" src="https://avatars0.githubusercontent.com/u/22851022?s=96&amp;v=4" width="48" height="48" alt="@Joynice"></a> | <a href="https://github.com/liangweiyang"><img class="avatar" src="https://avatars0.githubusercontent.com/u/37971213?s=96&amp;v=4" width="48" height="48" alt="@liangweiyang"></a> | <a href="https://github.com/Hatcat123"><img class="avatar" src="https://avatars0.githubusercontent.com/u/28727970?s=96&amp;v=4" width="48" height="48" alt="@Hatcat123"></a> | <a href="https://github.com/jihu9"><img class="avatar" src="https://avatars0.githubusercontent.com/u/17663102?s=96&amp;v=4" width="48" height="48" alt="@jihu9"></a> | <a href="https://github.com/ctycode"><img class="avatar" src="https://avatars3.githubusercontent.com/u/56985178?s=96&amp;v=4" width="48" height="48" alt="@ctycode"></a> |
