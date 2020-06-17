@@ -22,6 +22,8 @@
 - [x] [0x12 今日头条爬取](#0x12toutiao)
 - [x] [0x13 豆瓣影评](#0x13douban_yingping)
 - [x] [0x14 协程评论爬取](#0x14ctrip_crawler)
+- [x] [0x15 小米应用商店爬取](0x15xiaomiappshop)
+- [x] [0x16 安居客信息采集](0x16anjuke)
 ## 有趣的爬虫介绍
 
 ### [0x01baidutieba](0x01baidutieba)
