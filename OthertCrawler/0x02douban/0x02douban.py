@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-import requests
 import json
+
+import requests
 
 # 定义请求url
 url = "https://movie.douban.com/j/search_subjects"
@@ -21,7 +22,8 @@ for page_start in range(0, 100, 20):
     response = requests.get(
         url=url,
         headers=headers,
-        params=params
+        params=params,
+        verify=False
     )
     # 方式一:直接转换json方法
     # results = response.json()
