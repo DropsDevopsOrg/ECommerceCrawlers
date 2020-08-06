@@ -32,7 +32,7 @@ for i in range(1, 5):
         'x-requested-with': 'XMLHttpRequest'
     }
 
-    respons = requests.get(url, params=data, headers=headers)
+    respons = requests.get(url, params=data, headers=headers,verify=False)
    # print(respons.text)
 
     # 名称
@@ -74,7 +74,7 @@ for i in range(1, 5):
         # 构造新的url
         new_url = http + 'userId=' + userId[i] + '&spm=' + spm + '&_ksTS=' + timechuo2 + '&callback=' + callback
 
-        respons2 = requests.get(new_url, headers=headers)
+        respons2 = requests.get(new_url, headers=headers,verify=False)
 
         countuser = re.findall('cooperateSellerCount":(.*?),"', respons2.text)[0]
         countserver = re.findall('completeMission":(.*?),"', respons2.text)[0]

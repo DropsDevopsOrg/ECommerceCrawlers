@@ -1,9 +1,10 @@
-import requests
-import time
+import os
 import random
 import re
+import time
+
+import requests
 from openpyxl import Workbook
-import os
 
 
 # 爬取数据
@@ -40,7 +41,7 @@ def spider(sheet):
             '_input_charset': 'UTF-8'
         }
 
-        req = requests.get(url, params=query_string, headers=headers)
+        req = requests.get(url, params=query_string, headers=headers, verify=False)
 
         # 名称
         content_name = re.findall('"nick":"(.*?)"', req.text)
@@ -81,8 +82,9 @@ def spider(sheet):
             callback = 'jsonp%d' % (randoms + 1)
 
             # 构造新的url，可以获取到累计用户数
-            new_url = 'https://v.taobao.com/micromission/daren/daren_main_portalv3.do?userId=' + userId[i] + '&spm=' + spm + '&_ksTS=' + payload_time + '&callback=' + callback
-            res = requests.get(new_url, headers=headers)
+            new_url = 'https://v.taobao.com/micromission/daren/daren_main_portalv3.do?userId=' + userId[
+                i] + '&spm=' + spm + '&_ksTS=' + payload_time + '&callback=' + callback
+            res = requests.get(new_url, headers=headers, verify=False)
             data = re.findall('cooperateSellerCount":(.*?),"', res.text)[0]
             cooperateSellerCount.append(data)
 
