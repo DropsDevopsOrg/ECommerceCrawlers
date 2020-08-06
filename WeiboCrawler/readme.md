@@ -59,7 +59,12 @@
 返回数据中`out_type`参数含义：`2淘宝 3天猫 0 自身`
 
 
+## 使用
 
+```python
+python weibo_search_people.py
+python SinaShop.py
+```
 
 ## 总结
 

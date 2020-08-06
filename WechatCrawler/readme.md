@@ -1,7 +1,6 @@
 
-关于微信的公众号的爬取，部分内容功能将进行二次开发，推出商业版，自媒体的朋友可以先联系使用
+关于微信的公众号的爬取，部分内容功能进行二次开发，推出商业版，自媒体的朋友可以先联系使用
 
-相关服务-[淘宝链接](https://item.taobao.com/item.htm?spm=a230r.1.14.28.67b75b3bw7LUwj&id=607020657770&ns=1&abbucket=7#detail)
 
 ![](https://raw.githubusercontent.com/Hatcat123/GraphicBed/master/Img/20190515130702.png)
 
