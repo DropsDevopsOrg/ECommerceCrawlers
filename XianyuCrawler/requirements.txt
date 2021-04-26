@@ -49,7 +49,7 @@ pandas==0.24.2
 parso==0.3.4
 pefile==2018.8.8
 pickleshare==0.7.5
-Pillow==6.2.1
+Pillow==8.1.1
 progressbar==2.5
 prompt-toolkit==2.0.9
 psutil==5.6.2
