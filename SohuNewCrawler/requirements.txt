@@ -37,7 +37,7 @@ Jinja2==2.10.1
 kiwisolver==1.1.0
 ldap3==2.5.1
 ldapdomaindump==0.9.1
-lxml==4.3.2
+lxml==4.6.5
 macholib==1.11
 Mako==1.0.10
 MarkupSafe==1.1.1
