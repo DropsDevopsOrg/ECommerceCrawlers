@@ -28,22 +28,7 @@
 
 几乎 80%的项目都是帮客户写的爬虫，在添加到仓库之前已经经过客户同意可开源原则。
 
-<details>
-<summary>收益表</summary>
 
-| 项目            | 收益 |             备注             |
-| :-------------- | ---: | :--------------------------: |
-| DianpingCrawler |  200 |
-| TaobaoCrawler   | 2000 |
-| SohuNewCrawler  | 2500 |
-| WechatCrawler   | 6000 |                              |
-| 某省药监局      |   80 |
-| fofa            |  700 |
-| baidu           | 1000 |
-| 蜘蛛泛目录      | 1000 |
-| 更多……          |   …… | 另部分程序未得到客户开源认可 |
-
-</details>
 
 ## CrawlerDemo
 
