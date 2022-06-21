@@ -43,7 +43,7 @@ Mako==1.0.10
 MarkupSafe==1.1.1
 matplotlib==3.0.3
 multidict==4.5.2
-numpy==1.16.3
+numpy==1.22.0
 openpyxl==2.6.1
 pandas==0.24.2
 parso==0.3.4
