@@ -39,7 +39,7 @@ ldap3==2.5.1
 ldapdomaindump==0.9.1
 lxml==4.3.2
 macholib==1.11
-Mako==1.0.10
+Mako==1.2.2
 MarkupSafe==1.1.1
 matplotlib==3.0.3
 multidict==4.5.2
