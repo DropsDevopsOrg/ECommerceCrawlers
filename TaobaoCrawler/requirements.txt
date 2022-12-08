@@ -2,7 +2,7 @@ altgraph==0.16.1
 appdirs==1.4.3
 autopep8==1.4.3
 beautifulsoup4==4.7.1
-certifi==2018.8.24
+certifi==2022.12.7
 cffi==1.12.3
 chardet==3.0.4
 Click==7.0
