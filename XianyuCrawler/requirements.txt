@@ -85,7 +85,7 @@ typing-extensions==3.7.2
 uncompyle6==3.3.3
 urllib3>=1.24.2
 wcwidth==0.1.7
-Werkzeug==0.15.4
+Werkzeug==0.15.5
 win-unicode-console==0.5
 xdis==4.0.1
 xlwt==1.3.0
