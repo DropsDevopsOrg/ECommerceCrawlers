@@ -1,2 +1,2 @@
 requests==2.22.0
-lxml==4.3.2
+lxml==4.9.1
