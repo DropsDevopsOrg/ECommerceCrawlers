@@ -3,7 +3,7 @@ chardet==3.0.4
 cssselect==1.1.0
 fake-useragent==0.1.11
 idna==2.8
-lxml==4.4.2
+lxml==4.9.1
 numpy==1.17.4
 pandas==0.25.3
 PyMySQL==0.9.3
