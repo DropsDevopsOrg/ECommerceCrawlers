@@ -83,7 +83,7 @@ tld==0.9.3
 traitlets==4.3.2
 typing-extensions==3.7.2
 uncompyle6==3.3.3
-urllib3==1.24.2
+urllib3==1.26.5
 wcwidth==0.1.7
 Werkzeug==0.15.4
 win-unicode-console==0.5
