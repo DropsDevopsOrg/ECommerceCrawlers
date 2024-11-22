@@ -12,7 +12,7 @@ cffi==1.12.3
 chardet==3.0.4
 Click==7.0
 colorama==0.4.1
-cryptography==2.6.1
+cryptography==39.0.1
 cssselect==1.0.3
 cycler==0.10.0
 decorator==4.4.0
